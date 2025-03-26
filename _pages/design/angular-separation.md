@@ -7,8 +7,6 @@ layout: post
 mermaid: true
 ---
 
-## Angular separation - razlika kuteva
-
 Kut je jedna od ključnih veličina koja određuje različite aspekte stabilnosti i upravljanja elektroenergetskim sustavom.
 Različite vrste definiranih kuteva pružaju bitne informacije o faktoru snage, smjeru toka snage, opterećenju sustava i 
 njegovoj stabilnosti, kao i stabilnosti proizvodnih postrojenja. 
@@ -34,17 +32,17 @@ Magnetsko polje koje stvara uzbudni namot dovodi se u vrtnju mehaničkom rotacij
 teku kad je stroj pod opterećenjem stvaraju okretno polje koje ima jednaku brzinu kao i polje rotora tj. sam rotor. 
 Kut opterećenja sinkronog električnog struja definira se kao kutna razlika između **rotora i okretnog magnetskog polja statora**.
 
-![Kut opterećenja](imgs/torque_angle.PNG)
+![Kut opterećenja](./imgs/torque_angle.PNG)
 
 **Kut opterećenja i napon**
 Iznos napona generatora ovisi o struji uzbude koja dolazi na rotor. Unutarnji napon generatora $E_{0}$ ovisi o primarnom
 protjecanju tj. o struji uzbude - veća struja uzbude znači viši napon generatora. Razlika kuteva između dva okretna
 magnetska polja može se promatrati i kao razlika kuteva njihovih induciranih napona.
 
-![Kut opterećenja i napon generatora](imgs/torque_angle.PNG)
+![Kut opterećenja i napon generatora](./imgs/torque_angle.PNG)
 
 #### Kut snage
 __Power angle__ u engleskoj literaturi, je kutna razlika između faza napona na dvije lokacije u elektroenergetskom 
 sustavu. 
 
-![Kut snage](imgs/power_angle.PNG)
+![Kut snage](./imgs/power_angle.PNG)
