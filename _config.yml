@@ -1,6 +1,6 @@
 # Configurations
-title:            Obrada dostavljenih podataka - UQ regulacija na sučelju u HE Zakučac
-longtitle:        Obrada dostavljenih podataka - UQ regulacija na sučelju u HE Zakučac
+title:            Naponska stabilnost
+longtitle:        Naponska stabilnost
 author:           admilara
 email:            lara.buljan@ie-zagreb.hr
 description: >
@@ -10,7 +10,7 @@ version:          1.0
 gitbook_version:  1.0
 
 url:              'https://admilara.github.io'
-baseurl:          '/zakucac-uq'
+baseurl:          '/voltage-control'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
@@ -19,7 +19,7 @@ remote_theme: sighingnow/jekyll-gitbook
 toc:
   enabled: true
   h_min:   1
-  h_max:   5
+  h_max:   6
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path:     /assets/gitbook/images/favicon.ico
