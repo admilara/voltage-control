@@ -22,6 +22,7 @@ Fazni kut u nekom trenutku i mjestu u sustavu je razlika kuteva (razlika u fazi)
 U induktivnom sustavu, fazni kut je pozitivan i struja kasni za naponom. Ako napon kasni za strujom, kao što je slučaj
 u kapacitivnom sustavu, fazni kut je negativan. 
 
+<figure><img src="C:/Users/larab/Documents/GitHub/voltage-control/img/phase_angle.PNG" alt="Fazni kut"></figure>
 
 #### Kut opterećenja 
 
@@ -32,17 +33,19 @@ Magnetsko polje koje stvara uzbudni namot dovodi se u vrtnju mehaničkom rotacij
 teku kad je stroj pod opterećenjem stvaraju okretno polje koje ima jednaku brzinu kao i polje rotora tj. sam rotor. 
 Kut opterećenja sinkronog električnog struja definira se kao kutna razlika između **rotora i okretnog magnetskog polja statora**.
 
-![Kut opterećenja](./imgs/torque_angle.PNG)
+<figure><img src="C:/Users/larab/Documents/GitHub/voltage-control/img/torque_angle.PNG" alt="Kut opterećenja"></figure>
 
 **Kut opterećenja i napon**
 Iznos napona generatora ovisi o struji uzbude koja dolazi na rotor. Unutarnji napon generatora $E_{0}$ ovisi o primarnom
 protjecanju tj. o struji uzbude - veća struja uzbude znači viši napon generatora. Razlika kuteva između dva okretna
 magnetska polja može se promatrati i kao razlika kuteva njihovih induciranih napona.
 
-![Kut opterećenja i napon generatora](./imgs/torque_angle.PNG)
+<figure>
+    <img src="C:/Users/larab/Documents/GitHub/voltage-control/img/torque_angle_and_voltage.PNG" alt="Kut opterećenja i napon">
+</figure>
 
 #### Kut snage
 __Power angle__ u engleskoj literaturi, je kutna razlika između faza napona na dvije lokacije u elektroenergetskom 
 sustavu. 
 
-![Kut snage](./imgs/power_angle.PNG)
+<figure><img src="C:/Users/larab/Documents/GitHub/voltage-control/img/power_angle.PNG" alt="Kut snage"></figure>
