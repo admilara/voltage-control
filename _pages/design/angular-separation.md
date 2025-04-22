@@ -26,10 +26,6 @@ u kapacitivnom sustavu, fazni kut je negativan.
   <img src="{{ site.baseurl }}/assets/gitbook/images/phase_angle.PNG" alt="Fazni kut">
 </figure>
 
-![test2]({{ site.baseurl }}/assets/gitbook/images/phase_angle.PNG)
-
-<img src="https://admilara.github.io/voltage-control/assets/gitbook/images/phase_angle.PNG" alt="Fazni kut">
-
 #### Kut opterećenja 
 
 Kut opterećenja važan je faktor u određivanju aktivne snage koju isporučuje sinkroni generator ili aktivne snage
@@ -39,7 +35,10 @@ Magnetsko polje koje stvara uzbudni namot dovodi se u vrtnju mehaničkom rotacij
 teku kad je stroj pod opterećenjem stvaraju okretno polje koje ima jednaku brzinu kao i polje rotora tj. sam rotor. 
 Kut opterećenja sinkronog električnog struja definira se kao kutna razlika između **rotora i okretnog magnetskog polja statora**.
 
-<figure><img src="assets/gitbook/images/torque_angle.PNG" alt="Kut opterećenja"></figure>
+<figure>
+  <img src="{{ site.baseurl }}/assets/gitbook/images/torque_angle.PNG" alt="Kut opterećenja">
+</figure>
+
 
 **Kut opterećenja i napon**
 Iznos napona generatora ovisi o struji uzbude koja dolazi na rotor. Unutarnji napon generatora $E_{0}$ ovisi o primarnom
@@ -47,11 +46,14 @@ protjecanju tj. o struji uzbude - veća struja uzbude znači viši napon generat
 magnetska polja može se promatrati i kao razlika kuteva njihovih induciranih napona.
 
 <figure>
-    <img src="assets/gitbook/images/torque_angle_and_voltage.PNG" alt="Kut opterećenja i napon">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/torque_angle_and_voltage.PNG" alt="Kut opterećenja i napon">
 </figure>
 
 #### Kut snage
 __Power angle__ u engleskoj literaturi, je kutna razlika između faza napona na dvije lokacije u elektroenergetskom 
 sustavu. 
 
-<figure><img src="assets/gitbook/images/power_angle.PNG" alt="Kut snage"></figure>
+<figure>
+  <img src="{{ site.baseurl }}/assets/gitbook/images/power_angle.PNG" alt="Kut snage">
+</figure>
+
