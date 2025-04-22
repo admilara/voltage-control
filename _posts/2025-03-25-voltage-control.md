@@ -44,6 +44,7 @@ mogućnost sinkronizacije u stacionarnom stanju, a to može biti uzrokovano pado
 #### Spora dinamika
 
 Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
+
 **Što se događa s rezidencijalnim i industrijskim teretima**?
 - S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.
 
@@ -95,4 +96,3 @@ reaktivnog tereta u mreži.
 
 
 [1]: Joe H. Chow; Juan J. Sanchez-Gasca, [Load and Induction Motor Models][https://ieeexplore.ieee.org/document/8958809] in Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 10.1002/9781119546924.ch11.
-keywords: {Load modeling;Mathematical model;Induction motors;Atmospheric modeling;Analytical models;Computational modeling;Reactive power}
