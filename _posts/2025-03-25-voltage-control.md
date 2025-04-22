@@ -79,7 +79,7 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 | Fluo rasvjeta | 2,07 | 3,21 | 
 
 ##### Polinomni model tereta 
-- Model tereta može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta (jednadžba \ref{frekv_ovisna}).
+- Model tereta može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta (jednadžba [ \ref{frekv_ovisna} ]).
 - Radna snaga koji vuče neki potrošač, kad se uzme u obzir i frekvencijski ovisan dio glasi:
     
 \begin{equation}
