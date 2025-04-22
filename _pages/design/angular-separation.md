@@ -22,9 +22,13 @@ Fazni kut u nekom trenutku i mjestu u sustavu je razlika kuteva (razlika u fazi)
 U induktivnom sustavu, fazni kut je pozitivan i struja kasni za naponom. Ako napon kasni za strujom, kao što je slučaj
 u kapacitivnom sustavu, fazni kut je negativan. 
 
-<figure><img src="assets/gitbook/images/phase_angle.PNG" alt="Fazni kut"></figure>
-![]({{ site.baseurl }}/assets/gitbook/images/phase_angle.PNG)
+<figure>
+  <img src="{{ site.baseurl }}/assets/gitbook/images/phase_angle.PNG" alt="Fazni kut">
+</figure>
 
+![test2]({{ site.baseurl }}/assets/gitbook/images/phase_angle.PNG)
+
+<img src="https://admilara.github.io/voltage-control/assets/gitbook/images/phase_angle.PNG" alt="Fazni kut">
 
 #### Kut opterećenja 
 
