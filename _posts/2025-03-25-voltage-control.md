@@ -68,7 +68,7 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 - Ako su eksponenti $\alpha = 1, \beta = 1$, tada se radi o **teretu konstantne struje**.
 - Ako su eksponenti $\alpha = 2, \beta = 2$, tada se radi o **teretu konstantne impedancije**, čisti omski otpori.
 
-- Ako koristimo eksponencijalni model tereta, eksponenti $$\alpha$$ i $$\beta$$ za neke karakteristične terete su [1](https://ieeexplore.ieee.org/document/8958809):
+- Ako koristimo eksponencijalni model tereta, eksponenti $$\alpha$$ i $$\beta$$ za neke karakteristične terete su [[1]](https://ieeexplore.ieee.org/document/8958809):
 
 | Tip tereta    | $$\alpha$$ | $$\beta$$ |
 | :-------- | :-------: | :-------: |
@@ -79,13 +79,20 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 | Fluo rasvjeta | 2,07 | 3,21 | 
 
 ##### Polinomni model tereta 
-- Model tereta može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta (jednadžba [ \ref{frekv_ovisna} ]).
+- Model tereta može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta (jednadžba [\ref{frekv_ovisna}]).
 - Radna snaga koji vuče neki potrošač, kad se uzme u obzir i frekvencijski ovisan dio glasi:
     
 \begin{equation}
     P = P_{0} \cdot [p_1 V^2 + p_2 V + p_3] \cdot [1+k_p f \Delta f]
     \tag{3}\label{frekv_ovisna}
 \end{equation}
+
+##### Industrijski teret
+- Industrijski (radni i jalovi) tereti uglavnom se sastoje od indukcijskih motora i njihovi iznosi se ne mijenjaju previše.
+- Ako se od asinkronog motora očekuje neka određena snaga (moment), u slučaju da dođe do pada mrežnog napona, doći će do 
+malog pada brzine i pada EMS motora, ali će se zato povećati struja koju motor povlači, što bi trebalo osigurati relativno konstantnu snagu motora.
+
+
     
 - Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
 - - Prvo, s padom napona dolazi i do pada aktivnog i reaktivnog tereta kućanstava.
@@ -95,4 +102,7 @@ reaktivnog tereta u mreži.
 - - U isto vrijeme, pad rezidencijalnog tereta će smanjiti zauzeti kapacitet prijenosnih vodova i reaktivne gubitke u mreži.
 
 
-[1]: Joe H. Chow; Juan J. Sanchez-Gasca, [Load and Induction Motor Models](https://ieeexplore.ieee.org/document/8958809) in Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 10.1002/9781119546924.ch11.
+Lista referenci:
+
+\[1\]: Joe H. Chow; Juan J. Sanchez-Gasca, [Load and Induction Motor Models](https://ieeexplore.ieee.org/document/8958809) in 
+Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 10.1002/9781119546924.ch11
