@@ -40,4 +40,37 @@ zaštitnih uređaja generatora, potrošačkih opterećenja i drugih sustavskih k
 - Nestabilnost u stacionarnom stanju – Kutna razdioba (razdvajanje)[link na stranicu o kutnoj razdiobi] koja se događa kada prijenos snage premaši 
 mogućnost sinkronizacije u stacionarnom stanju, a to može biti uzrokovano padom napona povezanog s nestabilnošću napona.
 
+**Spora dinamika**
+- Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
+- Što se događa s rezidencijalnim i industrijskim teretima?
+    - S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.
+    - Često korišten statički model radnog i jalovog tereta izražava se kao eksponencijalna formula. 
+    - Takav model može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta.
+    
+    \begin{equation}
+        $$ P(V) = P_{0}\cdot \left({V \over V_{0}}\right)^\alpha $$
+    \end{equation}
+    
+    \begin{equation}
+        $$ Q(V) = Q_{0}\cdot \left({V \over V_{0}}\right)^\beta $$
+    \end{equation}
+    
+    - u gore navedenim jednadžbama, $P_{0}$ i $Q_{0}$ te $V_{0}$ označavaju početne vrijednosti radne snage, jalove snage i napona u nekom čvorištu.
+    - $\alpha$ i $\beta$ su koeficijenti koji određuju tip tereta.
+    - Ako su eksponenti $\alpha = 0, \beta = 0$, tada se radi o teretu konstantne snage, neovisne o naponu (motori).
+    - Ako su eksponenti $\alpha = 1, \beta = 1$, tada se radi o teretu konstantne struje.
+    - Ako su eksponenti $\alpha = 2, \beta = 2$, tada se radi o teretu konstantne impedancije, čisti omski otpori.
+
+    - Radna snaga koji vuče neki potrošač, kad se uzme u obzir i frekvencijski ovisan dio glasi:
+    
+    \begin{equation}
+        P = P_{0} [p_1 V^2 + p_2 V + p_3][1+k_p f \delta f]
+    \end{equation}
+    
+- Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
+- - Prvo, s padom napona dolazi i do pada aktivnog i reaktivnog tereta kućanstava.
+- - Industrijski tereti (aktivni i reaktivni), uglavnom se sastoje od indukcijskih motora, i neće se puno promijeniti.
+- - Ali, kondenzatori, kojih u industriji sigurno ima značajna količina, davat će manje reaktivne kapacitivne snage, što će povećati (neto) iznos
+reaktivnog tereta u mreži.
+- - U isto vrijeme, pad rezidencijalnog tereta će smanjiti zauzeti kapacitet prijenosnih vodova i reaktivne gubitke u mreži.
 
