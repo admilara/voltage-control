@@ -23,8 +23,7 @@ U induktivnom sustavu, fazni kut je pozitivan i struja kasni za naponom. Ako nap
 u kapacitivnom sustavu, fazni kut je negativan. 
 
 <figure><img src="assets/gitbook/images/phase_angle.PNG" alt="Fazni kut"></figure>
-![]({{ site.baseurl }}/assets/gitbook/images/torque-voltage.png)
-
+![]({{ site.baseurl }}/assets/gitbook/images/phase_angle.PNG)
 
 
 #### Kut opterećenja 
