@@ -46,8 +46,9 @@ mogućnost sinkronizacije u stacionarnom stanju, a to može biti uzrokovano pado
 Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
 **Što se događa s rezidencijalnim i industrijskim teretima**?
 - S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.
-- Često korišten statički model radnog i jalovog tereta izražava se kao eksponencijalna formula. 
-- Takav model može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta (jednadžba \eqref{frekv_ovisna}.
+
+##### Eksponencijalni model tereta
+- Često korišten statički model radnog i jalovog tereta izražava se kao **eksponencijalna** formula. 
     
 \begin{equation}
     P(V) = P_{0}\cdot \left({V \over V_{0}}\right)^\alpha
@@ -66,14 +67,7 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 - Ako su eksponenti $\alpha = 1, \beta = 1$, tada se radi o **teretu konstantne struje**.
 - Ako su eksponenti $\alpha = 2, \beta = 2$, tada se radi o **teretu konstantne impedancije**, čisti omski otpori.
 
-- Radna snaga koji vuče neki potrošač, kad se uzme u obzir i frekvencijski ovisan dio glasi:
-    
-\begin{equation}
-    P = P_{0} \cdot [p_1 V^2 + p_2 V + p_3] \cdot [1+k_p f \Delta f]
-    \label{eq:frekv_ovisna}
-\end{equation}
-
-- Ako koristimo eksponencijalni model tereta, eksponenti $$\alpha$$ i $$\beta$$ za neke karakteristične terete su \ref{[1]}:
+- Ako koristimo eksponencijalni model tereta, eksponenti $$\alpha$$ i $$\beta$$ za neke karakteristične terete su [1]:
 
 | Tip tereta    | $$\alpha$$ | $$\beta$$ |
 | :-------- | :-------: | :-------: |
@@ -82,6 +76,16 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 | Ventilokonvektori    | 0,08    | 1,6 |
 | Baterijski punjači | 2,59 | 4,06 |
 | Fluo rasvjeta | 2,07 | 3,21 | 
+
+##### Polinomni model tereta 
+- Model tereta može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta (jednadžba \ref{frekv_ovisna}.
+- Radna snaga koji vuče neki potrošač, kad se uzme u obzir i frekvencijski ovisan dio glasi:
+    
+\begin{equation}
+    P = P_{0} \cdot [p_1 V^2 + p_2 V + p_3] \cdot [1+k_p f \Delta f]
+    \label{frekv_ovisna}
+\end{equation}
+
     
     
 - Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
@@ -92,6 +96,6 @@ reaktivnog tereta u mreži.
 - - U isto vrijeme, pad rezidencijalnog tereta će smanjiti zauzeti kapacitet prijenosnih vodova i reaktivne gubitke u mreži.
 
 
-\label{[1]} Joe H. Chow; Juan J. Sanchez-Gasca, "Load and Induction Motor Models," in Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 10.1002/9781119546924.ch11.
+[1]: Joe H. Chow; Juan J. Sanchez-Gasca, <https://ieeexplore.ieee.org/document/8958809> "Load and Induction Motor Models" in Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 10.1002/9781119546924.ch11.
 keywords: {Load modeling;Mathematical model;Induction motors;Atmospheric modeling;Analytical models;Computational modeling;Reactive power}
 
