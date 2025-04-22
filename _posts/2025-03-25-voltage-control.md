@@ -48,11 +48,11 @@ mogućnost sinkronizacije u stacionarnom stanju, a to može biti uzrokovano pado
     - Takav model može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta.
     
     \begin{equation}
-        $$ P(V) = P_{0}\cdot \left({V \over V_{0}}\right)^\alpha $$
+        P(V) = P_{0}\cdot \left({V \over V_{0}}\right)^\alpha
     \end{equation}
     
     \begin{equation}
-        $$ Q(V) = Q_{0}\cdot \left({V \over V_{0}}\right)^\beta $$
+        Q(V) = Q_{0}\cdot \left({V \over V_{0}}\right)^\beta
     \end{equation}
     
     - u gore navedenim jednadžbama, $P_{0}$ i $Q_{0}$ te $V_{0}$ označavaju početne vrijednosti radne snage, jalove snage i napona u nekom čvorištu.
@@ -64,7 +64,7 @@ mogućnost sinkronizacije u stacionarnom stanju, a to može biti uzrokovano pado
     - Radna snaga koji vuče neki potrošač, kad se uzme u obzir i frekvencijski ovisan dio glasi:
     
     \begin{equation}
-        P = P_{0} [p_1 V^2 + p_2 V + p_3][1+k_p f \delta f]
+        P = P_{0} \cdot [p_1 V^2 + p_2 V + p_3] \cdot [1+k_p f \Delta f]
     \end{equation}
     
 - Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
