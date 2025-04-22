@@ -100,7 +100,6 @@ konstantnu snagu motora.
 Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/publication/313773111_Fuzzy_Gain_Scheduling_of_PID_FGS-PID_for_Speed_Control_Three_Phase_Induction_Motor_Based_on_Indirect_Field_Oriented_Control_IFOC).
 
 | Napon | Brzina rotora (o/min) | Klizanje (%) | Struja (A) |
-| :____ | :____________________: | :_________: | :________: |
 | 60%   | 1363,365 | 9,1 | 26,442 |
 | 70%   | 1408,410 | 6,1 | 21,515 |
 | 80%   | 1432,434 | 4,5 | 18,504 |

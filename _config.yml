@@ -10,7 +10,7 @@ version:          1.0
 gitbook_version:  1.0
 
 url:              'https://admilara.github.io'
-baseurl:          '/voltage-control'
+baseurl:          '/voltage-control/'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
