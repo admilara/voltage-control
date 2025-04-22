@@ -52,12 +52,12 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
     
 \begin{equation}
     P(V) = P_{0}\cdot \left({V \over V_{0}}\right)^\alpha
-    \label{eq:static_radna}
+    \tag{1}\label{static_radna}
 \end{equation}
     
 \begin{equation}
     Q(V) = Q_{0}\cdot \left({V \over V_{0}}\right)^\beta
-    \label{eq:static_jalova}
+    \tag{2}\label{static_jalova}
 \end{equation}
     
 - u gore navedenim jednadžbama, $P_{0}$ i $Q_{0}$ te $V_{0}$ označavaju početne vrijednosti radne snage, jalove snage i napona u nekom čvorištu.
@@ -67,7 +67,7 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 - Ako su eksponenti $\alpha = 1, \beta = 1$, tada se radi o **teretu konstantne struje**.
 - Ako su eksponenti $\alpha = 2, \beta = 2$, tada se radi o **teretu konstantne impedancije**, čisti omski otpori.
 
-- Ako koristimo eksponencijalni model tereta, eksponenti $$\alpha$$ i $$\beta$$ za neke karakteristične terete su [1]:
+- Ako koristimo eksponencijalni model tereta, eksponenti $$\alpha$$ i $$\beta$$ za neke karakteristične terete su [1][https://ieeexplore.ieee.org/document/8958809]:
 
 | Tip tereta    | $$\alpha$$ | $$\beta$$ |
 | :-------- | :-------: | :-------: |
@@ -78,15 +78,13 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 | Fluo rasvjeta | 2,07 | 3,21 | 
 
 ##### Polinomni model tereta 
-- Model tereta može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta (jednadžba \ref{frekv_ovisna}.
+- Model tereta može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta (jednadžba \ref{frekv_ovisna}).
 - Radna snaga koji vuče neki potrošač, kad se uzme u obzir i frekvencijski ovisan dio glasi:
     
 \begin{equation}
     P = P_{0} \cdot [p_1 V^2 + p_2 V + p_3] \cdot [1+k_p f \Delta f]
-    \label{frekv_ovisna}
+    \tag{3}\label{frekv_ovisna}
 \end{equation}
-
-it was a [hobbit-hole][2], and that means comfort.    
     
 - Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
 - - Prvo, s padom napona dolazi i do pada aktivnog i reaktivnog tereta kućanstava.
@@ -96,6 +94,5 @@ reaktivnog tereta u mreži.
 - - U isto vrijeme, pad rezidencijalnog tereta će smanjiti zauzeti kapacitet prijenosnih vodova i reaktivne gubitke u mreži.
 
 
-[1]: Joe H. Chow; Juan J. Sanchez-Gasca, <https://ieeexplore.ieee.org/document/8958809> "Load and Induction Motor Models" in Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 10.1002/9781119546924.ch11.
+[1]: Joe H. Chow; Juan J. Sanchez-Gasca, [Load and Induction Motor Models][https://ieeexplore.ieee.org/document/8958809] in Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 10.1002/9781119546924.ch11.
 keywords: {Load modeling;Mathematical model;Induction motors;Atmospheric modeling;Analytical models;Computational modeling;Reactive power}
-[2]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
