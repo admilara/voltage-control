@@ -68,7 +68,7 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 - Ako su eksponenti $\alpha = 1, \beta = 1$, tada se radi o **teretu konstantne struje**.
 - Ako su eksponenti $\alpha = 2, \beta = 2$, tada se radi o **teretu konstantne impedancije**, čisti omski otpori.
 
-- Ako koristimo eksponencijalni model tereta, eksponenti $$\alpha$$ i $$\beta$$ za neke karakteristične terete su [1][https://ieeexplore.ieee.org/document/8958809]:
+- Ako koristimo eksponencijalni model tereta, eksponenti $$\alpha$$ i $$\beta$$ za neke karakteristične terete su [1](https://ieeexplore.ieee.org/document/8958809):
 
 | Tip tereta    | $$\alpha$$ | $$\beta$$ |
 | :-------- | :-------: | :-------: |
@@ -95,4 +95,4 @@ reaktivnog tereta u mreži.
 - - U isto vrijeme, pad rezidencijalnog tereta će smanjiti zauzeti kapacitet prijenosnih vodova i reaktivne gubitke u mreži.
 
 
-[1]: Joe H. Chow; Juan J. Sanchez-Gasca, [Load and Induction Motor Models][https://ieeexplore.ieee.org/document/8958809] in Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 10.1002/9781119546924.ch11.
+[1]: Joe H. Chow; Juan J. Sanchez-Gasca, [Load and Induction Motor Models](https://ieeexplore.ieee.org/document/8958809) in Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 10.1002/9781119546924.ch11.
