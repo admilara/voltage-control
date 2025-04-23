@@ -101,6 +101,7 @@ malog pada brzine i pada EMS motora, ali će se zato povećati struja koju motor
 konstantnu snagu motora.
 
 - Graf na slici ispod prikazuje odnos momenta i brzine motora za različite iznose mrežnog napona za **konstantni teret** napajan motorom.
+To su primjerice dizalice, tekuće trake i slično.  
 
 <figure>
   <img src="{{ site.baseurl }}/assets/gitbook/images/torque-voltage-clean.jpg" alt="Moment vs. brzina vrtnje za različite napone">
@@ -116,8 +117,18 @@ Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/p
 | 100%  | 1459,461              | 2,7           | 14,175        |
 
 
-Base URL test: {{ site.baseurl }}
+> Ako se radi o teretu koji ima nelinearnu karakteristiku, kao što su pumpe ili ventilatori, graf izgleda kao na slici ispod.
+> U steady state proračunima, motori se najčešće aproksimiraju kao tereti konstantne snage.
+{: .block-tip }
 
+<figure>
+  <img src="{{ site.baseurl }}/assets/gitbook/images/torque-voltage-pump.jpg" alt="Moment vs. brzina vrtnje za različite napone za pumpe">
+</figure>
+
+> Za **dinamičke proračune**, motori se najčešće modeliraju kao **exponential recovery dinamički tereti (ERL)**.
+> Više o takvom modeliranju tereta navedeno je na [Motori u dinamici](admilara.github.io/voltage-control/pages/design/motors-and-dynamics/)    
+{: .block-warning }
+  
     
 - Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
 - - Prvo, s padom napona dolazi i do pada aktivnog i reaktivnog tereta kućanstava.
