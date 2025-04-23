@@ -44,7 +44,7 @@ realnije oslikati ponašanje tereta, naravno ako su vremenske konstantne dobro o
 opisati sljedećim jednadžbama:
 
 \begin{equation}
-    P(t) = P_{stac}\left(V(t)\right) + \left(P_0 - P_{stac}\left(V(t)\right) \cdot \exp^{-t \over T_p}
+    P(t) = P_{stac}\left(V(t)\right) + \left(P_0 - P_{stac}\left(V(t)\right)\right) \cdot \exp^{-t \over T_p}
 \end{equation}
 
 
