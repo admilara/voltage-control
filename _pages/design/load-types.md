@@ -73,7 +73,7 @@ Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/p
 
 
 
-
+Base URL test: {{ site.baseurl }}
 
 
 

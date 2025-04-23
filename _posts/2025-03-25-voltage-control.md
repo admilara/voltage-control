@@ -111,7 +111,7 @@ Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/p
 | 100%  | 1459,461              | 2,7           | 14,175        |
 
 
-
+Base URL test: {{ site.baseurl }}
 
     
 - Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.

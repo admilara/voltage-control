@@ -87,7 +87,9 @@ plt.ylim((0, 1.2))
 plt.grid(True)
 plt.legend()
 plt.tight_layout()
-plt.show()
+#plt.show()
+
+plt.savefig("torque_voltage.png", format='png', dpi=600)
 
 print(intersection_currents)
 print(intersections)
