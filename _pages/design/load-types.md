@@ -1,52 +1,13 @@
 ---
-title: Voltage Control
+title: Tipovi tereta
 author: admilara
-date: 2025-03-25
-category: Jekyll
+date: 2025-04-23
+category: Tipovi tereta
 layout: post
 mermaid: true
 ---
 
-Nestabilnost napona može se pojaviti u jako opterećenim sustavima ili sustavima s dugim vodovima (ili s oboje), kada 
-se ispuni jedan od dva uvjeta:
 
-* Reaktivna snaga dostupna iz kondenzatora, vodova, generatora i statičkih var sustava (SVS) padne ispod gubitaka 
-reaktivne snage u sustavu i opterećenja, ili
-
-* Izvori reaktivne snage ne premašuju značajno reaktivne gubitke i opterećenja, a dopušta se pad napona.
-
-Obično se ti uvjeti javljaju nakon ispada vodova ili generatora, ili kombinacije ispada opreme. Međutim, neuobičajeno 
-visoki vrh opterećenja ili manji poremećaji također mogu uzrokovati pad napona. Ako nije dostupna dovoljna količina 
-eaktivne snage kada napon počne padati, rezerve reaktivne snage brzo se iscrpe, a napon dodatno pada, moguće i do 
-potpunog kolapsa.
-
-#### Osnovni pojmovi
-
-- Nestabilnost napona – Pojava gubitka ravnotežnog stanja napona u elektroenergetskom sustavu. 
-Karakterizira je nekontrolirani pad napona koji u konačnici vodi do kolapsa napona. Dogodi se kada opskrba reaktivnom 
-snagom nije dovoljna za pokrivanje reaktivnih gubitaka povezanih s potrošačkim opterećenjima, vodovima i transformatorima.
-
-- Kolaps napona – Nagli i strmoglavi pad napona koji se obično događa nekoliko minuta nakon što je izgubljeno 
-ravnotežno stanje zbog nestabilnosti napona. Kolaps napona karakterizira zastoj indukcijskih motora kada napon 
-padne do točke u kojoj zakretni moment motora više ne premašuje mehanički moment opterećenja. 
-Tijekom procesa kolapsa motori ispadaju iz sustava, a može doći i do isključenja vodova, a potom i do lančanih ispada 
-čime na širokom području dolazi do gubitka napajanja. 
-
-- Sistemsko stanje niskog napona – Stanje niskog napona koje utječe na široko područje elektroenergetskog 
-sustava kroz više razina napona.
-
-- Sporo dinamičko ponašanje – Aktivnosti operatera, uređaja za promjenu prijenosnog omjera pod opterećenjem (LTC), 
-zaštitnih uređaja generatora, potrošačkih opterećenja i drugih sustavskih kontrola tijekom pojave nestabilnosti napona.
-
-- Nestabilnost u stacionarnom stanju – Kutna razdioba (razdvajanje)[link na stranicu o kutnoj razdiobi] koja se događa kada prijenos snage premaši 
-mogućnost sinkronizacije u stacionarnom stanju, a to može biti uzrokovano padom napona povezanog s nestabilnošću napona.
-
-#### Spora dinamika
-
-Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
-
-**Što se događa s rezidencijalnim i industrijskim teretima**?
-- S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.
 
 ##### Eksponencijalni model tereta
 - Često korišten statički model radnog i jalovog tereta izražava se kao **eksponencijalna** formula. 
@@ -96,7 +57,7 @@ konstantnu snagu motora.
 - Graf na slici ispod prikazuje odnos momenta i brzine motora za različite iznose mrežnog napona za **konstantni teret** napajan motorom.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/torque_voltage.png" alt="Moment vs. brzina vrtnje za različite napone">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/torque-voltage.png" alt="Moment vs. brzina vrtnje za različite napone">
 </figure>
 
 Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/publication/313773111_Fuzzy_Gain_Scheduling_of_PID_FGS-PID_for_Speed_Control_Three_Phase_Induction_Motor_Based_on_Indirect_Field_Oriented_Control_IFOC).
@@ -108,13 +69,22 @@ Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/p
 | 90%   | 1447,449              | 3,5           | 16,386        |
 | 100%  | 1459,461              | 2,7           | 14,175        |
 
-    
-- Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
-- - Prvo, s padom napona dolazi i do pada aktivnog i reaktivnog tereta kućanstava.
-- - Industrijski tereti (aktivni i reaktivni), uglavnom se sastoje od indukcijskih motora, i neće se puno promijeniti.
-- - Ali, kondenzatori, kojih u industriji sigurno ima značajna količina, davat će manje reaktivne kapacitivne snage, što će povećati (neto) iznos
-reaktivnog tereta u mreži.
-- - U isto vrijeme, pad rezidencijalnog tereta će smanjiti zauzeti kapacitet prijenosnih vodova i reaktivne gubitke u mreži.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Lista referenci:
@@ -125,3 +95,4 @@ Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 1
 \[2\]: Ferdiansyah, Indra & Era, Purwanto & Windarko, Novie Ayub. (2016). 
 [Fuzzy Gain Scheduling of PID (FGS-PID) for Speed Control 3PH Induction Motor](https://www.researchgate.net/publication/313773111_Fuzzy_Gain_Scheduling_of_PID_FGS-PID_for_Speed_Control_Three_Phase_Induction_Motor_Based_on_Indirect_Field_Oriented_Control_IFOC). 
 EMITTER International Journal of Engineering Technology. 4. 10.24003/emitter.v4i2.147. 
+
