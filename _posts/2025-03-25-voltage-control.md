@@ -96,17 +96,17 @@ konstantnu snagu motora.
 - Graf na slici ispod prikazuje odnos momenta i brzine motora za različite iznose mrežnog napona za **konstantni teret** napajan motorom.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/torque-voltage.png" alt="">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/torque-voltage.png" alt="Moment vs. brzina vrtnje za različite napone">
 </figure>
 
 Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/publication/313773111_Fuzzy_Gain_Scheduling_of_PID_FGS-PID_for_Speed_Control_Three_Phase_Induction_Motor_Based_on_Indirect_Field_Oriented_Control_IFOC).
 
-| Napon | Brzina rotora (o/min) | Klizanje (%) | Struja (A) |
-| 60%   | 1363,365 | 9,1 | 26,442 |
-| 70%   | 1408,410 | 6,1 | 21,515 |
-| 80%   | 1432,434 | 4,5 | 18,504 |
-| 90%   | 1447,449 | 3,5 | 16,386 |
-| 100%  | 1459,461 | 2,7 | 14,175 |
+| Napon | Brzina rotora (o/min) | Klizanje (%)  | Struja (A)    |
+| 60%   | 1363,365              | 9,1           | 26,442        |
+| 70%   | 1408,410              | 6,1           | 21,515        |
+| 80%   | 1432,434              | 4,5           | 18,504        |
+| 90%   | 1447,449              | 3,5           | 16,386        |
+| 100%  | 1459,461              | 2,7           | 14,175        |
 
     
 - Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
