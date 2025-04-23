@@ -49,6 +49,10 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 
 <span style="color:red">**S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.**</span>.
 
+> S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.
+{: .block-tip }
+
+
 ##### Eksponencijalni model tereta
 - Često korišten statički model radnog i jalovog tereta izražava se kao **eksponencijalna** formula. 
     
