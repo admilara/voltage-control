@@ -46,7 +46,7 @@ mogućnost sinkronizacije u stacionarnom stanju, a to može biti uzrokovano pado
 Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
 
 **Što se događa s rezidencijalnim i industrijskim teretima**?
-- S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.
+ <strong><p style="color:red;">S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.</p></strong>
 
 ##### Eksponencijalni model tereta
 - Često korišten statički model radnog i jalovog tereta izražava se kao **eksponencijalna** formula. 
@@ -70,13 +70,13 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 
 - Ako koristimo eksponencijalni model tereta, eksponenti $$\alpha$$ i $$\beta$$ za neke karakteristične terete su [[1]](https://ieeexplore.ieee.org/document/8958809):
 
-| Tip tereta    | $$\alpha$$ | $$\beta$$ |
-| :-------- | :-------: | :-------: |
-| Žarulje sa žarnom niti | 1,54    | 0 |
-| Sobni klima uređaji | 0,50     | 2,5 |
-| Ventilokonvektori    | 0,08    | 1,6 |
-| Baterijski punjači | 2,59 | 4,06 |
-| Fluo rasvjeta | 2,07 | 3,21 | 
+| Tip tereta                | $$\alpha$$ | $$\beta$$ |
+| :--------                 | :-------:  | :-------: |
+| Žarulje sa žarnom niti    | 1,54      | 0 |
+| Sobni klima uređaji       | 0,50      | 2,5 |
+| Ventilokonvektori         | 0,08      | 1,6 |
+| Baterijski punjači        | 2,59      | 4,06 |
+| Fluo rasvjeta             | 2,07      | 3,21 | 
 
 ##### Polinomni model tereta 
 - Model tereta može uključivati i dio koji bi označavao frekvencijsku ovisnost tereta (jednadžba [\ref{frekv_ovisna}]).
@@ -88,7 +88,9 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 \end{equation}
 
 ##### Industrijski teret
-- Industrijski (radni i jalovi) tereti uglavnom se sastoje od indukcijskih motora i njihovi iznosi se ne mijenjaju previše.
+<strong><p style="color:red;">Industrijski (radni i jalovi) tereti uglavnom se sastoje od indukcijskih motora i njihovi 
+iznosi se ne mijenjaju previše.</p></strong>
+
 - Ako se od asinkronog motora očekuje neka određena (konstantna) snaga (moment), u slučaju da dođe do pada mrežnog napona, doći će do 
 malog pada brzine i pada EMS motora, ali će se zato povećati struja koju motor povlači, što bi trebalo osigurati relativno 
 konstantnu snagu motora.
@@ -107,6 +109,9 @@ Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/p
 | 80%   | 1432,434              | 4,5           | 18,504        |
 | 90%   | 1447,449              | 3,5           | 16,386        |
 | 100%  | 1459,461              | 2,7           | 14,175        |
+
+
+
 
     
 - Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
