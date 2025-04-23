@@ -27,12 +27,12 @@ jalovu komponentu.
 - Standardni ZIP model za modeliranje tereta definiran je kao:
 
 \begin{equation}
-    P = P_0 \left \alpha_1 V^2 + \alpha_2 V + \alpha_3\right
+    P = P_0 \left( \alpha_1 V^2 + \alpha_2 V + \alpha_3 \right)
     \tag{1}\label{P_static}
 \end{equation}
 
 \begin{equation}
-    Q = Q_0 \left \beta_1V^2 + \beta_2 V + \beta_3 \right
+    Q = Q_0 \left( \beta_1V^2 + \beta_2 V + \beta_3 \right)
     \tag{2}\label{Q_static}
 \end{equation}
 
@@ -44,7 +44,7 @@ realnije oslikati ponašanje tereta, naravno ako su vremenske konstantne dobro o
 opisati sljedećim jednadžbama:
 
 \begin{equation}
-    P(t) = P_{stac}\leftV(t)\right + \left P_0 - P_{stac}\left V(t)\right \cdot \exp^{-t \over T_p}
+    P(t) = P_{stac}\left(V(t)\right) + \left(P_0 - P_{stac}\left(V(t)\right) \cdot \exp^{-t \over T_p}
 \end{equation}
 
 
