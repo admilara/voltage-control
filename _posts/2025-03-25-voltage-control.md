@@ -45,10 +45,8 @@ mogućnost sinkronizacije u stacionarnom stanju, a to može biti uzrokovano pado
 
 Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
 
-**Što se događa s rezidencijalnim i industrijskim teretima**?
-
-<span style="color:red">**S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.**</span>.
-
+#### Rezidencijalni tereti
+> ##### Što se događa s rezidencijalnim teretom?
 > S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.
 {: .block-tip }
 
@@ -92,8 +90,11 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
     \tag{3}\label{frekv_ovisna}
 \end{equation}
 
-##### Industrijski teret
-<span style="color:red">**Industrijski (radni i jalovi) tereti uglavnom se sastoje od indukcijskih motora i njihovi iznosi se ne mijenjaju previše.**</span>
+#### Industrijski teret
+
+> ##### Što se događa s industrijskim teretom?
+> Industrijski (radni i jalovi) tereti uglavnom se sastoje od indukcijskih motora i njihovi iznosi se ne mijenjaju previše, barem kad se radi o **steady state** ponašanju.
+{: .block-tip }
 
 - Ako se od asinkronog motora očekuje neka određena (konstantna) snaga (moment), u slučaju da dođe do pada mrežnog napona, doći će do 
 malog pada brzine i pada EMS motora, ali će se zato povećati struja koju motor povlači, što bi trebalo osigurati relativno 
