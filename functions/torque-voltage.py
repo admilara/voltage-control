@@ -89,14 +89,21 @@ plt.legend()
 plt.tight_layout()
 #plt.show()
 
-plt.savefig("torque-voltage.png", format='png', dpi=300)
 
-from PIL import Image
+plt.savefig(
+    "torque-voltage-clean.jpg",
+    format="jpg",
+    dpi=300,
+    bbox_inches="tight",
+    facecolor="white"
+)
 
-png = Image.open("torque-voltage.png").convert("RGBA")
-background = Image.new("RGB", png.size, (255, 255, 255))  # white background
-background.paste(png, mask=png.split()[3])  # use alpha channel as mask
-background.save("torque-voltage-2.jpg", quality=95)
+#from PIL import Image
+
+#png = Image.open("torque-voltage.png").convert("RGBA")
+#background = Image.new("RGB", png.size, (255, 255, 255))  # white background
+#background.paste(png, mask=png.split()[3])  # use alpha channel as mask
+#background.save("torque-voltage-2.jpg", quality=95)
 
 
 print(intersection_currents)
