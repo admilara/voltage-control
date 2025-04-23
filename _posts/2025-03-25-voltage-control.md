@@ -134,13 +134,6 @@ Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/p
 | 100%  | 1399,401              | 6,7           | 33,50         |  0,433        |
 
 
-
-[{'Voltage Level': '60%', 'Rotor Speed (RPM)': 1198.199, 'Slip': 0.201, 'Torque (p.u.)': 0.319, 'Current (A)': 49.821}, 
-{'Voltage Level': '70%', 'Rotor Speed (RPM)': 1285.287, 'Slip': 0.143, 'Torque (p.u.)': 0.366, 'Current (A)': 45.042}, 
-{'Voltage Level': '80%', 'Rotor Speed (RPM)': 1339.341, 'Slip': 0.107, 'Torque (p.u.)': 0.397, 'Current (A)': 40.549}, 
-{'Voltage Level': '90%', 'Rotor Speed (RPM)': 1375.377, 'Slip': 0.083, 'Torque (p.u.)': 0.416, 'Current (A)': 36.57}, 
-{'Voltage Level': '100%', 'Rotor Speed (RPM)': 1399.401, 'Slip': 0.067, 'Torque (p.u.)': 0.433, 'Current (A)': 33.5}]
-
 > Za **dinamičke proračune**, motori se najčešće modeliraju kao **exponential recovery dinamički tereti (ERL)**.
 > Više o takvom modeliranju tereta navedeno je na [Motori u dinamici](admilara.github.io/voltage-control/pages/design/motors-and-dynamics/)    
 {: .block-warning }
