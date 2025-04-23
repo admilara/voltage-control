@@ -89,7 +89,7 @@ plt.legend()
 plt.tight_layout()
 #plt.show()
 
-plt.savefig("torque_voltage.png", format='png', dpi=600)
+plt.savefig("torque_voltage_recache.png", format='png', dpi=300)
 
 print(intersection_currents)
 print(intersections)

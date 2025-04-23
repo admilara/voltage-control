@@ -98,7 +98,7 @@ konstantnu snagu motora.
 - Graf na slici ispod prikazuje odnos momenta i brzine motora za različite iznose mrežnog napona za **konstantni teret** napajan motorom.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/torque_voltage.png" alt="Moment vs. brzina vrtnje za različite napone">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/torque_voltage_recache.png" alt="Moment vs. brzina vrtnje za različite napone">
 </figure>
 
 Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/publication/313773111_Fuzzy_Gain_Scheduling_of_PID_FGS-PID_for_Speed_Control_Three_Phase_Induction_Motor_Based_on_Indirect_Field_Oriented_Control_IFOC).
