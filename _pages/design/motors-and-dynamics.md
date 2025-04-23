@@ -24,7 +24,9 @@ jalovu komponentu.
     - Ako je potpora sustavu, u vidu kondenzatora i generatora, nedovoljna, sustav se ne može 
     oporaviti i dolazi do propada napona. 
     
-- Standardni ZIP model za modeliranje tereta definiran je kao:
+> ##### **ZIP** model
+> Standardni ZIP model za modeliranje tereta definiran je kao polinom koji se sastoji od tri
+> dijela - teret konstantne snage, teret konstantne struje i teret konstantne impedancije
 
 \begin{equation}
     P = P_0 \left( \alpha_1 V^2 + \alpha_2 V + \alpha_3 \right)
@@ -39,12 +41,44 @@ jalovu komponentu.
 - Takav model tereta nema vremensku komponentu i ne može oslikati dinamičko
 ponašanje, već samo konačni iznos u koji će se stacionirati P i Q. 
 
-- **ERL** (exponential recovery load) modeliranje ima vremensku komponentu može
-realnije oslikati ponašanje tereta, naravno ako su vremenske konstantne dobro odabrane. Takav model možemo
-opisati sljedećim jednadžbama:
+> ##### **ERL** (exponential recovery load)
+> modeliranje ima vremensku komponentu možerealnije oslikati ponašanje tereta, naravno ako su vremenske konstantne dobro odabrane.
+> Takav model možemo opisati sljedećim jednadžbama
+{: .block-tip }
 
 \begin{equation}
     P(t) = P_{stac}\left(V(t)\right) + \left(P_0 - P_{stac}\left(V(t)\right)\right) \cdot \exp^{-t \over T_p}
 \end{equation}
 
+\begin{equation}
+    Q(t) = Q_{stac}\left(V(t)\right) + \left(Q_0 - Q_{stac}\left(V(t)\right)\right) \cdot \exp^{-t \over T_q}
+\end{equation}
 
+gdje su:
+    - $$P_0, Q_0$$ - iznosi radne i jalove snage prije poremećaja
+    - $$P_{stac}, Q_{stac} - statičke funkcije ovisne o naponu vezu (dakle, ZIP modeli)
+    - $$T_p, T_q$$ - vremenske konstante 
+    
+> Iz ova dva seta jednadžbi očito je da se ZIP model automatski odaziva na promjenu napona, dok se u 
+> ovom jednostavnom ERL modelu ipak opisuje nekakvo dinamičko ponašanje tereta prilikom promjene napona. 
+> Koristeći ERL model moguće je i modelirati promjenu napona u vremenu.
+{: .block-warning }
+    
+Na slici ispod dana je pojednostavljena vizualizacija odziva tereta na promjenu napona. 
+Simuliran je pad napona sa 1 p.u. na 0.7 p.u. Iscrtkano su prikazan ZIP odziv za radnu i jalovu snagu, dok
+je punom linijom prikazan ERL model (prema gore navedenim jednadžbama).
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
