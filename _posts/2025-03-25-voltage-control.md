@@ -46,7 +46,8 @@ mogućnost sinkronizacije u stacionarnom stanju, a to može biti uzrokovano pado
 Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko mehanizama.
 
 **Što se događa s rezidencijalnim i industrijskim teretima**?
- <strong><p style="color:red;">S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.</p></strong>
+
+<span style="color:red">**S padom napona dolazi i do pada radnog i jalovog tereta kućanstava.**</span>.
 
 ##### Eksponencijalni model tereta
 - Često korišten statički model radnog i jalovog tereta izražava se kao **eksponencijalna** formula. 
@@ -88,8 +89,7 @@ Kad neki poremećaj prouzrokuje pad napona, može doći do "aktivacije" nekoliko
 \end{equation}
 
 ##### Industrijski teret
-<strong><p style="color:red;">Industrijski (radni i jalovi) tereti uglavnom se sastoje od indukcijskih motora i njihovi 
-iznosi se ne mijenjaju previše.</p></strong>
+<span style="color:red">**Industrijski (radni i jalovi) tereti uglavnom se sastoje od indukcijskih motora i njihovi iznosi se ne mijenjaju previše.**</span>
 
 - Ako se od asinkronog motora očekuje neka određena (konstantna) snaga (moment), u slučaju da dođe do pada mrežnog napona, doći će do 
 malog pada brzine i pada EMS motora, ali će se zato povećati struja koju motor povlači, što bi trebalo osigurati relativno 
