@@ -28,6 +28,9 @@ plt.legend(loc="lower right")
 plt.grid(True)
 plt.tight_layout()
 
+import matplotlib
+matplotlib.use('Agg')
+
 plt.savefig(
     "C:/Users/larab/Documents/GitHub/voltage-control/assets/gitbook/images/graphs/ZIP-karakteristike.jpg",
     format="jpg",

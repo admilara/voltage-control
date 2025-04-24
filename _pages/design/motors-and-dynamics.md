@@ -100,14 +100,14 @@ a to je instant promjena snage i potom oporavak do neke stacionarne vrijednosti.
 Kao što je vidljivo na slici iznad, ovakav model pretpostavlja monotonu promjenu
 do nove stacionarne vrijednosti, što u stvarnosti nije tako. 
 
-U stvarnosti postoji početni propad $$\DeltaP_0$$ uzrokovan nemogućnošću promjene
+U stvarnosti postoji početni propad $$\Delta P_0$$ uzrokovan nemogućnošću promjene
 klizanja motora u trenutku pojave stepa napona. Detaljniji model naveden je u članku na linku [[1]](https://ieeexplore.ieee.org/document/221270).
 
 Prema tom članku, mjerenjima je potvrđeno da se teret na step promjenu u naponu odaziva kao prema slici ispod (preuzeto iz članka).
 Isti oblik odziva se može očekivati i od jalove snage. 
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/load-response-to-v-step.PNG" alt="Odziv tereta na step promjenu napona">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/load-response-to-v-step.PNG" alt="Odziv tereta na step promjenu napona">
 </figure>    
     
 Intuitivno to znači sljedeće - tijekom stepa, klizanje motora se ne može promijeniti,

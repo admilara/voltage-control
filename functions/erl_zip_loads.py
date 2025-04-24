@@ -109,6 +109,9 @@ plt.tight_layout()
 ax1.set_xlim((-2,20))
 #plt.show()
 
+import matplotlib
+matplotlib.use('Agg')
+
 plt.savefig(
     "ERL-vs-ZIP.jpg",
     format="jpg",
