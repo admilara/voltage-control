@@ -92,7 +92,7 @@ Simuliran je pad napona sa 1 p.u. na 0.7 p.u. Iscrtkano su prikazan ZIP odziv za
 je punom linijom prikazan ERL model (prema gore navedenim jednadžbama).
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/ERL-vs-ZIP.jpg" alt="Odziv jednostavnog ERL i ZIP modela tereta">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/ERL-vs-ZIP.jpg" alt="Odziv jednostavnog ERL i ZIP modela tereta">
 </figure>
     
 Gore navedene jednadžbe ne uzimaju u obzir jednu karakteristiku odziva motora, 
@@ -107,7 +107,7 @@ Prema tom članku, mjerenjima je potvrđeno da se teret na step promjenu u napon
 Isti oblik odziva se može očekivati i od jalove snage. 
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/load-response-to-v-step.PNG" alt="Odziv tereta na step promjenu napona">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/load-response-to-v-step.PNG" alt="Odziv tereta na step promjenu napona">
 </figure>    
     
 Intuitivno to znači sljedeće - tijekom stepa, klizanje motora se ne može promijeniti,

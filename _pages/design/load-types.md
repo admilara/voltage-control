@@ -65,7 +65,7 @@ frekvencije puno uža nego odstupanja napona, pa se gore navedene formule svedu 
 
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/ZIP-karakteristike.jpg" alt="Karakteristike tereta - model konstantne snage, konstantne struje i konstantne impedancije">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/ZIP-karakteristike.jpg" alt="Karakteristike tereta - model konstantne snage, konstantne struje i konstantne impedancije">
 </figure>
 
 
@@ -100,7 +100,7 @@ konstantnu snagu motora.
 - Graf na slici ispod prikazuje odnos momenta i brzine motora za različite iznose mrežnog napona za **konstantni teret** napajan motorom.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/torque-voltage-clean.jpg" alt="Moment vs. brzina vrtnje za različite napone">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/torque-voltage-clean.jpg" alt="Moment vs. brzina vrtnje za različite napone">
 </figure>
 
 Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/publication/313773111_Fuzzy_Gain_Scheduling_of_PID_FGS-PID_for_Speed_Control_Three_Phase_Induction_Motor_Based_on_Indirect_Field_Oriented_Control_IFOC).

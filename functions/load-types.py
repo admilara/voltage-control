@@ -32,7 +32,7 @@ import matplotlib
 matplotlib.use('Agg')
 
 plt.savefig(
-    "C:/Users/larab/Documents/GitHub/voltage-control/assets/gitbook/images/graphs/ZIP-karakteristike.jpg",
+    "C:/Users/larab/Documents/GitHub/voltage-control/assets/gitbook/images/ZIP-karakteristike.jpg",
     format="jpg",
     dpi=300,
     bbox_inches="tight",
