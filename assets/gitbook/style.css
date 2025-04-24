@@ -98,35 +98,3 @@ table {
     }
 }
 
-/* --- Block Tips: Scoped only inside content --- */
-.markdown-section .block-tip ul {
-  list-style: disc;
-  padding-left: 1.5em;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-}
-
-/* --- Sidebar Bullet Fixes --- */
-.book-summary ul,
-.book-summary ul li,
-.book-summary li.chapter,
-.book-summary li.chapter.expanded,
-.book-summary li.chapter.collapsed {
-  list-style: none !important;
-  padding-left: 0 !important;
-  font-family: inherit !important;
-  font-size: inherit !important;
-}
-
-/* Remove leftover dots or bullets */
-.book-summary li::marker,
-.book-summary li::before {
-  content: none !important;
-  display: none !important;
-}
-
-/* Hide empty sidebar list items */
-.book-summary li:empty {
-  display: none !important;
-}
