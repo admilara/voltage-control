@@ -56,3 +56,15 @@ frekvencije puno uža nego odstupanja napona, pa se gore navedene formule svedu 
     \tag{6}\label{lim_exp_jalova}
 \end{equation}
 
+- Faktore $$k_{pu}$$ i $$k_{qu}$$ zamijenili smo faktorima $$\alpha$$ i $$\beta$$ radi jednostavnijeg označavanja.
+    
+- u gore navedenim jednadžbama, $P_0$ i $Q_0$ te $V_0$ označavaju početne vrijednosti radne snage, jalove snage i napona u nekom čvorištu.
+- $$\alpha$$ i $$\beta$$ su koeficijenti koji određuju tip tereta, što je slikovito prikazano na grafu ispod.
+
+- Ako su eksponenti $$\alpha = 0, \beta = 0$$, tada se radi o **teretu konstantne snage**, neovisne o naponu (motori).
+- Ako su eksponenti $$\alpha = 1, \beta = 1$$, tada se radi o **teretu konstantne struje**.
+- Ako su eksponenti $$\alpha = 2, \beta = 2$$, tada se radi o **teretu konstantne impedancije**, čisti omski otpori.
+
+<figure>
+    <img src="{{ site.baseurl }}/assets/gitbook/images/ZIP-karakteristike.svg" width="800" alt="Karakteristike tereta - model konstantne snage, konstantne struje i konstantne impedancije">
+</figure>
