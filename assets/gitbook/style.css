@@ -98,54 +98,35 @@ table {
     }
 }
 
-/* Fix: Confine .block-tip styles only to content area */
-.content .block-tip ul {
+/* --- Block Tips: Scoped only inside content --- */
+.markdown-section .block-tip ul {
   list-style: disc;
-  padding-left: 1.2em;
+  padding-left: 1.5em;
   font-family: inherit;
+  font-size: inherit;
+  color: inherit;
 }
 
-/* Sidebar override to reset styling */
-.sidebar ul {
-  list-style: none !important;
-  padding-left: 0 !important;
-  font-family: inherit !important;
-}
-
-.sidebar ul li::before {
-  content: none !important;
-}
-
-.sidebar ul,
-.sidebar ul li {
+/* --- Sidebar Bullet Fixes --- */
+.book-summary ul,
+.book-summary ul li,
+.book-summary li.chapter,
+.book-summary li.chapter.expanded,
+.book-summary li.chapter.collapsed {
   list-style: none !important;
   padding-left: 0 !important;
   font-family: inherit !important;
   font-size: inherit !important;
 }
 
-/* Extra hard reset if dots still show */
-.sidebar ul li::before {
+/* Remove leftover dots or bullets */
+.book-summary li::marker,
+.book-summary li::before {
   content: none !important;
+  display: none !important;
 }
 
-/* Force reset for GitBook sidebar chapters */
-li.chapter,
-li.chapter.expanded,
-li.chapter.collapsed {
-  list-style: none !important;
-  padding-left: 0 !important;
-  font-family: inherit !important;
-  font-size: inherit !important;
-}
-
-li.chapter::marker,
-li.chapter.expanded::marker,
-li.chapter.collapsed::marker {
-  content: none !important;
-}
-
-li.chapter::before {
-  content: none !important;
+/* Hide empty sidebar list items */
+.book-summary li:empty {
   display: none !important;
 }
