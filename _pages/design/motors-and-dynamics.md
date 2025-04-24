@@ -27,6 +27,7 @@ jalovu komponentu.
 > ##### **ZIP** model
 > Standardni ZIP model za modeliranje tereta definiran je kao polinom koji se sastoji od tri
 > dijela - teret konstantne snage, teret konstantne struje i teret konstantne impedancije
+{: .block-tip }
 
 \begin{equation}
     P = P_0 \left( \alpha_1 V^2 + \alpha_2 V + \alpha_3 \right)
@@ -56,7 +57,7 @@ ponašanje, već samo konačni iznos u koji će se stacionirati P i Q.
 
 gdje su:
     - $$P_0, Q_0$$ - iznosi radne i jalove snage prije poremećaja
-    - $$P_{stac}, Q_{stac} - statičke funkcije ovisne o naponu vezu (dakle, ZIP modeli)
+    - $$P_{stac}, Q_{stac}$$ - statičke funkcije ovisne o naponu vezu (dakle, ZIP modeli)
     - $$T_p, T_q$$ - vremenske konstante 
     
 > Iz ova dva seta jednadžbi očito je da se ZIP model automatski odaziva na promjenu napona, dok se u 
@@ -68,12 +69,27 @@ Na slici ispod dana je pojednostavljena vizualizacija odziva tereta na promjenu 
 Simuliran je pad napona sa 1 p.u. na 0.7 p.u. Iscrtkano su prikazan ZIP odziv za radnu i jalovu snagu, dok
 je punom linijom prikazan ERL model (prema gore navedenim jednadžbama).
 
+<figure>
+  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/ERL-vs-ZIP.jpg" alt="Odziv jednostavnog ERL i ZIP modela tereta">
+</figure>
+    
+Gore navedene jednadžbe ne uzimaju u obzir jednu karakteristiku odziva motora, 
+a to je instant promjena snage i potom oporavak do neke stacionarne vrijednosti.
+Kao što je vidljivo na slici iznad, ovakav model pretpostavlja monotonu promjenu
+do nove stacionarne vrijednosti, što u stvarnosti nije tako. 
 
+U stvarnosti postoji početni propad $$\DeltaP_0$$ uzrokovan INSTANT usporavanjem 
+motora prilikom pada napona. Detaljniji model naveden je u članku na linku [[1]](https://ieeexplore.ieee.org/document/221270)
     
     
-    
-    
-    
+
+
+
+
+\[1\]: D. J. Hill, ["Nonlinear dynamic load models with recovery for voltage stability studies"](https://ieeexplore.ieee.org/document/221270) 
+in IEEE Transactions on Power Systems, vol. 8, no. 1, pp. 166-176, Feb. 1993, doi: 10.1109/59.221270.
+
+   
     
     
     

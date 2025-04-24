@@ -36,7 +36,7 @@ teku kad je stroj pod opterećenjem stvaraju okretno polje koje ima jednaku brzi
 Kut opterećenja sinkronog električnog struja definira se kao kutna razlika između **rotora i okretnog magnetskog polja statora**.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/torque_angle.PNG" alt="Kut opterećenja">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/torque_angle.PNG" alt="Kut opterećenja">
 </figure>
 
 
@@ -54,6 +54,6 @@ __Power angle__ u engleskoj literaturi, je kutna razlika između faza napona na 
 sustavu. 
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/power_angle.PNG" alt="Kut snage">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/power_angle.PNG" alt="Kut snage">
 </figure>
 
