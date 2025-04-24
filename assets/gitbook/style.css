@@ -97,3 +97,21 @@ table {
         max-width: 100%;
     }
 }
+
+/* Fix: Confine .block-tip styles only to content area */
+.content .block-tip ul {
+  list-style: disc;
+  padding-left: 1.2em;
+  font-family: inherit;
+}
+
+/* Sidebar override to reset styling */
+.sidebar ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  font-family: inherit !important;
+}
+
+.sidebar ul li::before {
+  content: none !important;
+}
