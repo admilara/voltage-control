@@ -88,9 +88,9 @@ gdje su:
     - $$T_p, T_q$$ - vremenske konstante 
 
 <div class="block-warning">
-  Iz ova dva seta jednadžbi očito je da se ZIP model automatski odaziva na promjenu napona, dok se u 
+  <p>Iz ova dva seta jednadžbi očito je da se ZIP model automatski odaziva na promjenu napona, dok se u 
   ovom jednostavnom ERL modelu ipak opisuje nekakvo dinamičko ponašanje tereta prilikom promjene napona. 
-  Koristeći ERL model moguće je i modelirati promjenu napona u vremenu.
+  Koristeći ERL model moguće je i modelirati promjenu napona u vremenu. </p>
 </div>
     
 Na slici ispod dana je pojednostavljena vizualizacija odziva tereta na promjenu napona. 
