@@ -111,7 +111,7 @@ Prema tom članku, mjerenjima je potvrđeno da se teret na step promjenu u napon
 Isti oblik odziva se može očekivati i od jalove snage. 
 
 <figure>
-    <img src="{{ site.baseurl }}/assets/gitbook/images/load-response-to-v-step.svg" alt="Odziv tereta na step promjenu napona">
+    <img src="{{ site.baseurl }}/assets/gitbook/images/load-response-to-v-step.svg" width="500" alt="Odziv tereta na step promjenu napona">
 </figure>    
     
 Intuitivno to znači sljedeće - tijekom stepa, klizanje motora se ne može promijeniti,

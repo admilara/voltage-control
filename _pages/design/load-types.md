@@ -115,25 +115,3 @@ Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/p
 | 100%  | 1459,461              | 2,7           | 14,175        |
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Lista referenci:
-
-\[1\]: Joe H. Chow; Juan J. Sanchez-Gasca, [Load and Induction Motor Models](https://ieeexplore.ieee.org/document/8958809) in 
-Power System Modeling, Computation, and Control , IEEE, 2020, pp.295-325, doi: 10.1002/9781119546924.ch11
-
-\[2\]: Ferdiansyah, Indra & Era, Purwanto & Windarko, Novie Ayub. (2016). 
-[Fuzzy Gain Scheduling of PID (FGS-PID) for Speed Control 3PH Induction Motor](https://www.researchgate.net/publication/313773111_Fuzzy_Gain_Scheduling_of_PID_FGS-PID_for_Speed_Control_Three_Phase_Induction_Motor_Based_on_Indirect_Field_Oriented_Control_IFOC). 
-EMITTER International Journal of Engineering Technology. 4. 10.24003/emitter.v4i2.147. 
-
