@@ -7,6 +7,28 @@ layout: post
 mermaid: true
 ---
 
+- Modeli tereta mogu se klasificirati u statičke i dinamičke. 
+
+- Statički modeli predstavljaju teret s vremenski invarijantnim funkcijama napona 
+i frekvencije. Često korišteni statički modeli su eksponencijalni i polinomni model tereta.
+
+- Dinamički modeli tereta koriste trenutne i prošle vrijednosti napona i frekvencije
+kako bi se što bolje prikazao teret. 
+- Dinamika tereta trebala bi uključivati i dinamiku
+asinkronih motora, **utjecaj tap-changer transformatora** i ponašanje tereta koji imaju 
+sposobnost samo-restauracije (kao što su termostatski kontrolirani tereti).
+
+- Dinamika motora posebno je bitna te se predlaže detaljno modeliranje većih motora.
+- Dinamika asinkronih motora ovisi o njihovoj veličini (snazi) te mehaničkom teretu koji napajaju.
+- Mali motori su skloniji preopterećenju i zastoju tijekom padova napona od srednjih i velikih motora. 
+
+- Za potrebe dinamičkih proračuna, često se ide na najintuitivniji, a i najjednostavniji model 
+**kompozitni model tereta**, koji u sebi sadrži statički dio (predstavljen polinomom) i 
+dinamički dio (predstavljen nekim udjelom motora) 
+
+
+
+
 ### ERL - Exponential recovery load
 
 - Kako je već rečeno, u proračunima stacionarnih stanja, motori se modeliraju kao
@@ -78,11 +100,18 @@ a to je instant promjena snage i potom oporavak do neke stacionarne vrijednosti.
 Kao što je vidljivo na slici iznad, ovakav model pretpostavlja monotonu promjenu
 do nove stacionarne vrijednosti, što u stvarnosti nije tako. 
 
-U stvarnosti postoji početni propad $$\DeltaP_0$$ uzrokovan INSTANT usporavanjem 
-motora prilikom pada napona. Detaljniji model naveden je u članku na linku [[1]](https://ieeexplore.ieee.org/document/221270)
-    
-    
+U stvarnosti postoji početni propad $$\DeltaP_0$$ uzrokovan nemogućnošću promjene
+klizanja motora u trenutku pojave stepa napona. Detaljniji model naveden je u članku na linku [[1]](https://ieeexplore.ieee.org/document/221270).
 
+Prema tom članku, mjerenjima je potvrđeno da se teret na step promjenu u naponu odaziva kao prema slici ispod (preuzeto iz članka).
+Isti oblik odziva se može očekivati i od jalove snage. 
+
+<figure>
+  <img src="{{ site.baseurl }}/assets/gitbook/images/load-response-to-v-step.PNG" alt="Odziv tereta na step promjenu napona">
+</figure>    
+    
+Intuitivno to znači sljedeće - tijekom stepa, klizanje motora se ne može promijeniti,
+pa teret izgleda statično - tako step napona uzrokuje step u snazi. 
 
 
 
