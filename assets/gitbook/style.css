@@ -98,3 +98,32 @@ table {
     }
 }
 
+/* Fix: Only apply .block-tip formatting inside actual content */
+.markdown-section .block-tip ul,
+.markdown-section .block-warning ul,
+.markdown-section .block-danger ul {
+  list-style: disc;
+  padding-left: 1.5em;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Hard reset for sidebar <ul> so it stays clean */
+.book-summary ul,
+.book-summary li {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.book-summary li::marker,
+.book-summary li::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* Optional: hide accidental empty <li> */
+.book-summary li:empty {
+  display: none;
+}
