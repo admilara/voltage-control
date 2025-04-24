@@ -97,3 +97,32 @@ table {
         max-width: 100%;
     }
 }
+
+.custom-block {
+  border-left: 4px solid #ccc;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.custom-block-title {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Colors for specific block types */
+.tip {
+  border-color: #42b983;
+  background: #e6f9f0;
+}
+
+.warning {
+  border-color: #e7c000;
+  background: #fffbe6;
+}
+
+.danger {
+  border-color: #c00;
+  background: #ffe6e6;
+}

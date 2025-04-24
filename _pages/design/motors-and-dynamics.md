@@ -46,11 +46,11 @@ jalovu komponentu.
     - Ako je potpora sustavu, u vidu kondenzatora i generatora, nedovoljna, sustav se ne može 
     oporaviti i dolazi do propada napona. 
     
-<div class="block-tip">
-  **ZIP** model
+<div class="custom-block tip">
+  <p class="custom-block-title">ZIP model</p>
   
-  Standardni ZIP model za modeliranje tereta definiran je kao polinom koji se sastoji od tri
-  dijela - teret konstantne snage, teret konstantne struje i teret konstantne impedancije
+  <p>Standardni ZIP model za modeliranje tereta definiran je kao polinom koji se sastoji od tri
+  dijela - teret konstantne snage, teret konstantne struje i teret konstantne impedancije.</p>
 </div>
 
 \begin{equation}
@@ -66,11 +66,11 @@ jalovu komponentu.
 - Takav model tereta nema vremensku komponentu i ne može oslikati dinamičko
 ponašanje, već samo konačni iznos u koji će se stacionirati P i Q. 
 
-<div class="block-tip">
-  **ERL** (exponential recovery load)
+<div class="custom-block tip">
+  <p class="custom-block-title">ERL (exponential recovery load)</p>
   
-  ERL modeliranje ima vremensku komponentu možerealnije oslikati ponašanje tereta, naravno ako su vremenske konstantne dobro odabrane.
-  Takav model možemo opisati sljedećim jednadžbama
+  <p>ERL modeliranje ima vremensku komponentu možerealnije oslikati ponašanje tereta, naravno ako su vremenske konstantne dobro odabrane.
+  Takav model možemo opisati sljedećim jednadžbama.</p>
 </div>
 
 
@@ -87,7 +87,7 @@ gdje su:
     - $$P_{stac}, Q_{stac}$$ - statičke funkcije ovisne o naponu vezu (dakle, ZIP modeli)
     - $$T_p, T_q$$ - vremenske konstante 
 
-<div class="block-warning">
+<div class="custom-block warning">
   <p>Iz ova dva seta jednadžbi očito je da se ZIP model automatski odaziva na promjenu napona, dok se u 
   ovom jednostavnom ERL modelu ipak opisuje nekakvo dinamičko ponašanje tereta prilikom promjene napona. 
   Koristeći ERL model moguće je i modelirati promjenu napona u vremenu. </p>
