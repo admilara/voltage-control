@@ -24,12 +24,14 @@ Oni su funkcije napona $$U$$ i frekvencije $$f$$ na nekoj sabirnici.
 
 <div class="custom-block tip">
   <p>S obzirom na ovisnost o naponu, modele dijelimo na:</p>
-  <ol>Model konstantne snage</ol>
-  <ol>Model konstantne struje</ol>
-  <ol>Model konstantne impedancije</ol>
+  <ol>1. Model konstantne snage</ol>
+  <ol>2. Model konstantne struje</ol>
+  <ol>3. Model konstantne impedancije</ol>
 </div>
 
+#### Eksponencijalni model tereta
 
+- Često korišten statički model radnog i jalovog opterećenja izražava se kao **eksponencijalna** formula.
 
 
 
