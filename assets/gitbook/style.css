@@ -115,3 +115,37 @@ table {
 .sidebar ul li::before {
   content: none !important;
 }
+
+.sidebar ul,
+.sidebar ul li {
+  list-style: none !important;
+  padding-left: 0 !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+/* Extra hard reset if dots still show */
+.sidebar ul li::before {
+  content: none !important;
+}
+
+/* Force reset for GitBook sidebar chapters */
+li.chapter,
+li.chapter.expanded,
+li.chapter.collapsed {
+  list-style: none !important;
+  padding-left: 0 !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+li.chapter::marker,
+li.chapter.expanded::marker,
+li.chapter.collapsed::marker {
+  content: none !important;
+}
+
+li.chapter::before {
+  content: none !important;
+  display: none !important;
+}
