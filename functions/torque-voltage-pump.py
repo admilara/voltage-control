@@ -91,8 +91,8 @@ plt.tight_layout()
 #plt.show()
 
 plt.savefig(
-    "torque-voltage-pump.jpg",
-    format="jpg",
+    "torque-voltage-pump.svg",
+    format="svg",
     dpi=300,
     bbox_inches="tight",
     facecolor="white"

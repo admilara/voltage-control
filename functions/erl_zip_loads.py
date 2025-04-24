@@ -113,8 +113,8 @@ import matplotlib
 matplotlib.use('Agg')
 
 plt.savefig(
-    "ERL-vs-ZIP.jpg",
-    format="jpg",
+    "ERL-vs-ZIP.svg",
+    format="svg",
     dpi=300,
     bbox_inches="tight",
     facecolor="white"

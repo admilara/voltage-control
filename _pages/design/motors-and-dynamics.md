@@ -92,7 +92,7 @@ Simuliran je pad napona sa 1 p.u. na 0.7 p.u. Iscrtkano su prikazan ZIP odziv za
 je punom linijom prikazan ERL model (prema gore navedenim jednadžbama).
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/ERL-vs-ZIP.jpg" alt="Odziv jednostavnog ERL i ZIP modela tereta">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/ERL-vs-ZIP.svg" width="600" alt="Odziv jednostavnog ERL i ZIP modela tereta">
 </figure>
     
 Gore navedene jednadžbe ne uzimaju u obzir jednu karakteristiku odziva motora, 

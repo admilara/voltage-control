@@ -91,8 +91,8 @@ plt.tight_layout()
 
 
 plt.savefig(
-    "torque-voltage-clean.jpg",
-    format="jpg",
+    "torque-voltage-clean.svg",
+    format="svg",
     dpi=300,
     bbox_inches="tight",
     facecolor="white"

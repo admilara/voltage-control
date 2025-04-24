@@ -32,8 +32,8 @@ import matplotlib
 matplotlib.use('Agg')
 
 plt.savefig(
-    "C:/Users/larab/Documents/GitHub/voltage-control/assets/gitbook/images/ZIP-karakteristike.jpg",
-    format="jpg",
+    "C:/Users/larab/Documents/GitHub/voltage-control/assets/gitbook/images/ZIP-karakteristike.svg",
+    format="svg",
     dpi=300,
     bbox_inches="tight",
     facecolor="white"
