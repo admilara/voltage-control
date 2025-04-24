@@ -22,11 +22,13 @@ Oni su funkcije napona $$U$$ i frekvencije $$f$$ na nekoj sabirnici.
     \tag{2}\label{static_jalova}
 \end{equation}
 
-> S obzirom na ovisnost o naponu, modele dijelimo na
->    1. Model konstantne snage
->    2. Model konstantne struje
->    3. Model konstantne impedancije
-{: .block-tip }
+<div class="custom-block tip">
+  <p>S obzirom na ovisnost o naponu, modele dijelimo na:</p>
+  <ol>Model konstantne snage</ol>
+  <ol>Model konstantne struje</ol>
+  <ol>Model konstantne impedancije</ol>
+</div>
+
 
 ##### Eksponencijalni model tereta
 - Često korišten statički model radnog i jalovog opterećenja izražava se kao **eksponencijalna** formula.
