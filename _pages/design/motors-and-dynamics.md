@@ -148,8 +148,14 @@ gdje je:
     k_q(V) = \lambda_q(\\V^2 - 1)
 \end{equation}
 
+- Gore navedene jednadžbe su pojednostavljene da ne uključuju ovisnost o promjeni napona.
+Takav oblik je dovoljan kako bi se prikazala dinamika tereta vidljiva u većini mjerenja.
+- Problem je što za uhvatiti brze dinamičke promjene, kakve su kod indukcijski motora (klizanje i magnetski tok se jako brzo mijenjaju), 
+ali takav model zahtjeva parametriranje prema stvarnim podatcima. 
 
-
+\begin{equation}
+    T_p {dP_d \over dt} + P_d = P_S(V) + k_p(V) + k_{pv}(V)\cdot {dV \over dt}
+\end{equation}
 
 
 
