@@ -81,9 +81,9 @@ ponašanje, već samo konačni iznos u koji će se stacionirati P i Q.
 \end{equation}
 
 gdje su:
-    - $$P_0, Q_0$$ - iznosi radne i jalove snage prije poremećaja
-    - $$P_{stac}, Q_{stac}$$ - statičke funkcije ovisne o naponu vezu (dakle, ZIP modeli)
-    - $$T_p, T_q$$ - vremenske konstante 
+- $$P_0, Q_0$$ - iznosi radne i jalove snage prije poremećaja,
+- $$P_{stac}, Q_{stac}$$ - statičke funkcije ovisne o naponu vezu (dakle, ZIP modeli),
+- $$T_p, T_q$$ - vremenske konstante 
 
 <div class="custom-block warning">
   <p>Iz ova dva seta jednadžbi očito je da se ZIP model automatski odaziva na promjenu napona, dok se u 
@@ -98,6 +98,8 @@ je punom linijom prikazan ERL model (prema gore navedenim jednadžbama).
 <figure>
   <img src="{{ site.baseurl }}/assets/gitbook/images/ERL-vs-ZIP.svg" width="800" alt="Odziv jednostavnog ERL i ZIP modela tereta">
 </figure>
+    
+<hr>  
     
 Gore navedene jednadžbe ne uzimaju u obzir jednu karakteristiku odziva motora, 
 a to je instant promjena snage i potom oporavak do neke stacionarne vrijednosti.
@@ -115,7 +117,40 @@ Isti oblik odziva se može očekivati i od jalove snage.
 </figure>    
     
 Intuitivno to znači sljedeće - tijekom stepa, klizanje motora se ne može promijeniti,
-pa teret izgleda statično - tako step napona uzrokuje step u snazi. 
+pa teret izgleda statično - tako step napona uzrokuje step u snazi. Navodimo jednadžbe koje 
+uzimaju u obzir tranzijentno ponašanje tereta.
+
+\begin{equation}
+    T_p {dP_d \over dt} + P_d = P_S(V) + k_p(V)
+\end{equation}
+
+gdje je:
+- $$P_S(V)$$ - ZIP funkcija radne snage u stacionarnom stanju
+- $$k_p(V)$$ - tranzijentni propad
+- $$T_p$$ - vremenska konstanta oporavka
+- $$P_d(t)$$ - stvarna radna snaga koju vuče teret
+
+\begin{equation}
+    k_p(V) = \lambda_p(V^2 - 1)
+\end{equation}
+
+\begin{equation}
+    T_q {dQ_d \over dt} + Q_d = Q_S(V) + k_q(V)
+\end{equation}
+
+gdje je:
+- $$Q_S(V)$$ - ZIP funkcija jalove snage u stacionarnom stanju
+- $$k_q(V)$$ - tranzijentni propad
+- $$T_q$$ - vremenska konstanta oporavka
+- $$Q_d(t)$$ - stvarna jalova snaga koju vuče teret
+
+\begin{equation}
+    k_q(V) = \lambda_q(\\V^2 - 1)
+\end{equation}
+
+
+
+
 
 
 
