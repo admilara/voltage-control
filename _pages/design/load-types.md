@@ -112,6 +112,10 @@ Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/p
 | 90%   | 1447,449              | 3,5           | 16,386        |
 | 100%  | 1459,461              | 2,7           | 14,175        |
 
+
+
+
+
 Lista referenci:
 
 \[1\]: Joe H. Chow; Juan J. Sanchez-Gasca, [Load and Induction Motor Models](https://ieeexplore.ieee.org/document/8958809) in 

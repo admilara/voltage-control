@@ -74,10 +74,12 @@ ponašanje, već samo konačni iznos u koji će se stacionirati P i Q.
 
 \begin{equation}
     P(t) = P_{stac}\left(V(t)\right) + \left(P_0 - P_{stac}\left(V(t)\right)\right) \cdot \exp^{-t \over T_p}
+    \tag{3}\label{ERL_P}
 \end{equation}
 
 \begin{equation}
     Q(t) = Q_{stac}\left(V(t)\right) + \left(Q_0 - Q_{stac}\left(V(t)\right)\right) \cdot \exp^{-t \over T_q}
+    \tag{4}\label{ERL_Q}
 \end{equation}
 
 gdje su:
@@ -122,6 +124,7 @@ uzimaju u obzir tranzijentno ponašanje tereta.
 
 \begin{equation}
     T_p {dP_d \over dt} + P_d = P_S(V) + k_p(V)
+    \tag{5}\label{P_diff}
 \end{equation}
 
 gdje je:
@@ -131,11 +134,13 @@ gdje je:
 - $$P_d(t)$$ - stvarna radna snaga koju vuče teret
 
 \begin{equation}
-    k_p(V) = \lambda_p(V^2 - 1)
+    k_p(V) = y_p \cdot V^2
+    \tag{6}\label{kp_diff}
 \end{equation}
 
 \begin{equation}
     T_q {dQ_d \over dt} + Q_d = Q_S(V) + k_q(V)
+    \tag{7}\label{Q_diff}
 \end{equation}
 
 gdje je:
@@ -145,17 +150,23 @@ gdje je:
 - $$Q_d(t)$$ - stvarna jalova snaga koju vuče teret
 
 \begin{equation}
-    k_q(V) = \lambda_q(\\V^2 - 1)
+    k_q(V) = y_q \cdot V^2
+    \tag{8}\label{kq_diff}
 \end{equation}
 
 - Gore navedene jednadžbe su pojednostavljene da ne uključuju ovisnost o promjeni napona.
-Takav oblik je dovoljan kako bi se prikazala dinamika tereta vidljiva u većini mjerenja.
-- Problem je što za uhvatiti brze dinamičke promjene, kakve su kod indukcijski motora (klizanje i magnetski tok se jako brzo mijenjaju), 
-ali takav model zahtjeva parametriranje prema stvarnim podatcima. 
+- $$k_p(V)$$ i $$k_q(V)$$ u jednadžbama \ref{kp_diff} i \ref{kq_diff} fizikalno 
+predstavljaju koliko neki teret elastično reagira na promjene napona prije stabilizacije.
 
-\begin{equation}
-    T_p {dP_d \over dt} + P_d = P_S(V) + k_p(V) + k_{pv}(V)\cdot {dV \over dt}
-\end{equation}
+- Tipične vrijednosti za $$y_p$$ i $$y_q$$ ovisne su o tipu tereta. U tablici ispod
+navode se pretpostavljeni rasponi vrijednosti koji se mogu koristiti prilikom.
+
+| Tip tereta | $$y_p$$  | $$y_q$$   | Objašnjenje |
+| Induktivni teret  | 0.05 - 0.2    | 0.0 - 0.05 | Glatka krivulja odziva, manja tromost |
+| Asinkroni motor   | 0.1 - 0.3     | 0.1 - 0.25 | Brz prijelazni propad, umjerena brzina oporavka |
+| Miješano          | 0.1 - 0.2     | 0.05 - 0.15 | Oporavak nije prebrz ni gladak, očekuje se overshoot | 
+
+
 
 
 
