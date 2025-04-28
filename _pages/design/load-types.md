@@ -1,5 +1,5 @@
 ---
-title: Tipovi tereta
+title: 1. Tipovi tereta
 author: admilara
 date: 2025-04-23
 category: Tipovi tereta

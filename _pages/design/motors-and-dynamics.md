@@ -1,5 +1,5 @@
 ---
-title: Motori i dinamika
+title: 2. Motori i dinamika
 author: admilara
 date: 2025-04-23
 category: Motori i dinamika
@@ -166,6 +166,12 @@ navode se pretpostavljeni rasponi vrijednosti koji se mogu koristiti prilikom.
 | Asinkroni motor   | 0.1 - 0.3     | 0.1 - 0.25 | Brz prijelazni propad, umjerena brzina oporavka |
 | Miješano          | 0.1 - 0.2     | 0.05 - 0.15 | Oporavak nije prebrz ni gladak, očekuje se overshoot | 
 
+Simuliran je odziv radne snage za $$y_p=0.2$$ prilikom promjene napona od 0.2 p.u.
+
+<figure>
+    <img src="{{ site.baseurl }}/assets/gitbook/images/hill-voltage-response.svg" width="800" alt="Odziv tereta na step promjenu napona - simulacija">
+</figure>
+
 
 
 
@@ -173,6 +179,7 @@ navode se pretpostavljeni rasponi vrijednosti koji se mogu koristiti prilikom.
 
 \[1\]: D. J. Hill, ["Nonlinear dynamic load models with recovery for voltage stability studies"](https://ieeexplore.ieee.org/document/221270) 
 in IEEE Transactions on Power Systems, vol. 8, no. 1, pp. 166-176, Feb. 1993, doi: 10.1109/59.221270.
+
 
    
     
