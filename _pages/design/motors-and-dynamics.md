@@ -167,6 +167,7 @@ navode se pretpostavljeni rasponi vrijednosti koji se mogu koristiti prilikom.
 | Miješano          | 0.1 - 0.2     | 0.05 - 0.15 | Oporavak nije prebrz ni gladak, očekuje se overshoot | 
 
 Simuliran je odziv radne snage za $$y_p=0.2$$ prilikom promjene napona od 0.2 p.u.
+Odabrana zip funkcija je $$(\alpha_1, \alpha_2, \alpha_3) = (0.3, 0.2, 0.5).
 
 <figure>
     <img src="{{ site.baseurl }}/assets/gitbook/images/hill-voltage-response.svg" width="800" alt="Odziv tereta na step promjenu napona - simulacija">

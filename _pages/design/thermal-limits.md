@@ -22,11 +22,11 @@ Taj dalekovod tada ne treba potporu sustava u vidu dodatne jalove snage jer svu
 jalovinu koja je potrebna za prijenos radne snage, vod samostalno proizvodi i troši. 
 
 \begin{equation}
-    Q_{produces} [Mvar] = V^2 \over X_C
+    Q_{produces} = {V^2 \over X_C}
 \end{equation}
 
 \begin{equation}
-    Q_{uses} [Mvar] = I^2 \cdot X_L
+    Q_{uses} = I^2 \cdot X_L
 \end{equation}
 
 - Ako je vod opterećen ispod prirodne snage voda, najviši napon je negdje oko
@@ -48,6 +48,6 @@ za održavanje napona te dolazi do naglog propada napona.
 jednadžbu koja pokazuje ovisnost napona o radnoj snazi i kutu opterećenja
 
 \begin{equation}
-    V_2 = \sqrt{ -a \pm \sqrt{a^2 - x_Lp^2_2(1+ tan^2 \phi_2)}
+    V_2 = {\sqrt{ -a \pm {\sqrt{a^2 - x_Lp^2_2(1+ tan^2 \phi_2)}}
 \end{equation}
 
