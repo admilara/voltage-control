@@ -48,6 +48,6 @@ za održavanje napona te dolazi do naglog propada napona.
 jednadžbu koja pokazuje ovisnost napona o radnoj snazi i kutu opterećenja
 
 \begin{equation}
-    V_2 = {\sqrt{ -a \pm {\sqrt{a^2 - x_Lp^2_2(1+ tan^2 \phi_2)}}
+    V_2
 \end{equation}
 
