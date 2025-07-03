@@ -78,11 +78,14 @@ Eliminacijom $\delta$ dobivamo:
     \textcolor{red}{(Q+ {V^2 \over X})^2 + P^2 = ({E\cdot V \over X})^2}
 \end{equation}
 
-Rješavanjem po $V^2$ dobivamo formulu ispod:
+Rješavanjem po $V^2$ dobivamo formulu ispod [[1]](https://link.springer.com/book/10.1007/978-3-642-13669-6)
 
 \begin{equation}
-    \textcolor{green}{V^2 = {E^2 \over 2}-Q\cdotX \pm \sqrt{ {E^4 \over 4X^2} - P^2 - Q\cdot {E^2 \over X} }}
+    \textcolor{blue}{V^2 = {E^2 \over 2}-Q\cdot X \pm \sqrt{ {E^4 \over 4X^2} - P^2 - Q\cdot {E^2 \over X} }}
 \end{equation}
+
+
+
 
 
 Najbolja ilustracija ovisnosti napona i snage koja se prenosi dalekovodom je u
@@ -106,3 +109,10 @@ jednadžbu koja pokazuje ovisnost napona o radnoj snazi i kutu opterećenja
     V_2 = {\sqrt{ -a \pm \sqrt{1+1}}}
 \end{equation}
 
+
+
+
+Lista referenci:
+
+\[1\]: Federico Milano, [Power System Modelling and Scripting](https://link.springer.com/book/10.1007/978-3-642-13669-6) 
+Springer, 2010, doi: 10.1007/978-3-642-13669-6
