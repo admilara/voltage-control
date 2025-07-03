@@ -53,15 +53,23 @@ Napon na strani potrošača iznosi $V\angle\delta$.
 - Jednadžbama ispod se opisuje radna i jalova snaga na strani potrošača:
 
 \begin{equation}
-    sin\delta = \fract{I\cdotX\cdot\cos\phi}{E}
+    sin\delta = {I\cdot X\cdot cos\phi \over E}
 \end{equation}
 
 \begin{equation}
-    I\cdot cos\phi = \fract{E}{X}\cdot sin\delta
+    I\cdot cos\varphi = {E \over X}\cdot sin\delta
 \end{equation}
 
 \begin{equation}
-    P = V\cdotI\cdot cos\phi = V\cdot\fract{E}{X}\cdot sin\delta
+    P = V \cdot I \cdot cos\varphi = V\cdot {E \over X}\cdot sin\delta
+\end{equation}
+
+\begin{equation}
+    P = - {E\cdot V \over X}\cdot sin\delta
+\end{equation}
+
+\begin{equation}
+    Q = {E\cdot V\over X}\cdot cos\delta - {V^2 \over X}
 \end{equation}
 
 
