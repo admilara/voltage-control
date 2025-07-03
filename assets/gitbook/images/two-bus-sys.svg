@@ -63,9 +63,9 @@
 	<g id="shape2" class="xplitem shape" transform="translate(718.57,293.07)" style="--xpl-w:176.24;--xpl-h:55.81;--xpl-valign:middle;">
 		<rect fill="#FFFFFF" fill-rule="evenodd" stroke="none" x="0" y="0" width="176.24" height="55.81"></rect>
 	</g>
-	<g id="text3" class="xplitem text" transform="translate(889.04,184.15)" style="--xpl-w:83.71;--xpl-h:45;--xpl-valign:top;">
+	<g id="text3" class="xplitem text" transform="translate(889.04,185.87)" style="--xpl-w:63.98;--xpl-h:45;--xpl-valign:top;">
 		<switch>
-			<foreignObject x="0" y="0" width="83.71" height="45"><body xmlns="http://www.w3.org/1999/xhtml"><p><span style="font-size:37px">P,Q</span></p></body></foreignObject>
+			<foreignObject x="0" y="0" width="63.98" height="45"><body xmlns="http://www.w3.org/1999/xhtml"><p><span style="font-size:37px">P,Q</span></p></body></foreignObject>
 			<g style="font-family:;font-size:37px;fill:#000000"><text x="0" y="37" dy="-0.12em">P,Q</text></g>
 		</switch>
 	</g>

@@ -42,9 +42,9 @@ sredine dalekovoda
 
 ### Prijenos radne i jalove snagež
 
-<div>
+<figure>
     <img src="{{ site.baseurl }}/assets/gitbook/images/two-bus-sys.svg" width="400" alt="Jednostavni sustav s dvije sabirnice">
-</div>
+</figure>
 
 - Razmatramo jednostavni prijenosni krug, od generatora do potrošača, kako je prikazano na slici gore. Generator je 
 izvor napona $$E$$ pod kutem 0° koji napaja udaljenog potrošača preko prijenosnog voda modeliranog serijskom reaktancijom $X$. 
