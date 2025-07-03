@@ -75,8 +75,15 @@ Napon na strani potrošača iznosi $V\angle\delta$.
 Eliminacijom $\delta$ dobivamo:
 
 \begin{equation}
-    \textcolor{red}{(Q+ {V^2 \over X})^2 + P^2 = (E\cdot V \over V)^2}
+    \textcolor{red}{(Q+ {V^2 \over X})^2 + P^2 = ({E\cdot V \over X})^2}
 \end{equation}
+
+Rješavanjem po $V^2$ dobivamo formulu ispod:
+
+\begin{equation}
+    \textcolor{green}{V^2 = {E^2 \over 2}-Q\cdotX \pm \sqrt{ {E^4 \over 4X^2} - P^2 - Q\cdot {E^2 \over X} }}
+\end{equation}
+
 
 Najbolja ilustracija ovisnosti napona i snage koja se prenosi dalekovodom je u
 obliku **P-V krivulja**. 
