@@ -53,7 +53,7 @@ Napon na strani potrošača iznosi $V\angle\delta$.
 - Jednadžbama ispod se opisuje radna i jalova snaga na strani potrošača:
 
 \begin{equation}
-    sin\delta = {I\cdot X\cdot cos\phi \over E}
+    sin\delta = {I\cdot X\cdot cos\varphi \over E}
 \end{equation}
 
 \begin{equation}
@@ -72,6 +72,11 @@ Napon na strani potrošača iznosi $V\angle\delta$.
     Q = {E\cdot V\over X}\cdot cos\delta - {V^2 \over X}
 \end{equation}
 
+Eliminacijom $\delta$ dobivamo:
+
+\begin{equation}
+    \textcolor{red} (Q+ {V^2 \over X})^2 + P^2 = (E\cdot V \over V)^2
+\end{equation}
 
 Najbolja ilustracija ovisnosti napona i snage koja se prenosi dalekovodom je u
 obliku **P-V krivulja**. 
