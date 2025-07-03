@@ -7,6 +7,11 @@ layout: post
 mermaid: true
 ---
 
+### Prijenos radne i jalove snage
+
+
+
+
 Gubitci jalove snage u prijenosnom sustavu direktno su vezani za naponske razine
 u sustavu. Što se veća radna snaga prenosi, to su veći i jalovi gubitci u sustavu, 
 kao i pad napona. 
@@ -34,6 +39,31 @@ sredine dalekovoda
 - Ako je vod opterećen iznad prirodne snage voda, najniži napon je negdje oko
 sredine dalekovoda
 - Ako je vod opterećen na prirodnu snagu, profil napona je konstantan duž voda
+
+### Prijenos radne i jalove snagež
+
+<div>
+    <img src="{{ site.baseurl }}/assets/gitbook/images/two-bus-sys.svg" width="400" alt="Jednostavni sustav s dvije sabirnice">
+</div>
+
+- Razmatramo jednostavni prijenosni krug, od generatora do potrošača, kako je prikazano na slici gore. Generator je 
+izvor napona $$E$$ pod kutem 0° koji napaja udaljenog potrošača preko prijenosnog voda modeliranog serijskom reaktancijom $X$. 
+Napon na strani potrošača iznosi $V\angle\delta$. 
+
+- Jednadžbama ispod se opisuje radna i jalova snaga na strani potrošača:
+
+\begin{equation}
+    sin\delta = \fract{I\cdotX\cdot\cos\phi}{E}
+\end{equation}
+
+\begin{equation}
+    I\cdot cos\phi = \fract{E}{X}\cdot sin\delta
+\end{equation}
+
+\begin{equation}
+    P = V\cdotI\cdot cos\phi = V\cdot\fract{E}{X}\cdot sin\delta
+\end{equation}
+
 
 Najbolja ilustracija ovisnosti napona i snage koja se prenosi dalekovodom je u
 obliku **P-V krivulja**. 
