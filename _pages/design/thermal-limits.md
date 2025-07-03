@@ -47,9 +47,10 @@ za održavanje napona te dolazi do naglog propada napona.
 - Za jednostavni sustav sa dvije sabirnice (kao na slici ispod) navodimo 
 jednadžbu koja pokazuje ovisnost napona o radnoj snazi i kutu opterećenja
 
-<figure>
+<div>
     <img src="{{ site.baseurl }}/assets/gitbook/images/two-bus-sys.svg" width="400" alt="Jednostavni sustav s dvije sabirnice">
-</figure>
+</div>
+
 
 \begin{equation}
     V_2 = {\sqrt{ -a \pm \sqrt{1+1}}}
