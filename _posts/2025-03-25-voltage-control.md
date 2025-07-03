@@ -104,7 +104,7 @@ konstantnu snagu motora.
 To su primjerice dizalice, tekuće trake i slično.  
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/torque-voltage-clean.jpg" alt="Moment vs. brzina vrtnje za različite napone">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/torque-voltage-clean.svg" alt="Moment vs. brzina vrtnje za različite napone">
 </figure>
 
 Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/publication/313773111_Fuzzy_Gain_Scheduling_of_PID_FGS-PID_for_Speed_Control_Three_Phase_Induction_Motor_Based_on_Indirect_Field_Oriented_Control_IFOC).
@@ -123,7 +123,7 @@ Za ilustraciju su korištene vrijednosti iz [[2]](https://www.researchgate.net/p
 {: .block-tip }
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/gitbook/images/graphs/torque-voltage-pump.jpg" alt="Moment vs. brzina vrtnje za različite napone za pumpe">
+  <img src="{{ site.baseurl }}/assets/gitbook/images/torque-voltage-pump.svg" alt="Moment vs. brzina vrtnje za različite napone za pumpe">
 </figure>
 
 | Napon | Brzina rotora (o/min) | Klizanje (%)  | Struja (A)    | Moment (p.u.) | 
