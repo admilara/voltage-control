@@ -95,7 +95,7 @@ Uz trigonometrijski identitet $tg\varphi = Q/P$, možemo definirati tu funkciju 
 - Ovu funkciju vizualno predstavljamo P-V krivuljom, čiji je primjer dan na slici ispod za različite iznose cos$\varphi$:
 
 <figure>
-    <img src="{{ site.baseurl }}/assets/gitbook/images/pv-curve-multiple-cos.svg" width="400" alt="PV krivulja za sustav s dvije sabirnice za razlicite iznose cosphi">
+    <img src="{{ site.baseurl }}/assets/gitbook/images/pv-curve-multiple-cos.svg" alt="PV krivulja za sustav s dvije sabirnice za razlicite iznose cosphi">
 </figure>
 
 - Maksimum ove funkcije dostiže se za (ceteris paribus) cos$\varphi$ = 1, gdje je **$P=P_{max}$** i to je maksimalna 
@@ -114,7 +114,7 @@ stavlja na maksimalnu prenosivu radnu snagu u sustavu.
 jalovinom koju generator maksimalno može dati.
 
 <figure>
-    <img src="{{ site.baseurl }}/assets/gitbook/images/pv-curve-multiple-cos.svg" alt="PV krivulja za sustav s dvije sabirnice, limit Q">
+    <img src="{{ site.baseurl }}/assets/gitbook/images/pv-curve-q-limit.svg" alt="PV krivulja za sustav s dvije sabirnice, limit Q">
 </figure>
 
 
