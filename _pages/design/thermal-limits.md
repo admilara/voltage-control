@@ -84,6 +84,38 @@ Rješavanjem po $V^2$ dobivamo formulu ispod [[1]](https://link.springer.com/boo
     \textcolor{blue}{V^2 = {E^2 \over 2}-Q\cdot X \pm \sqrt{ {E^4 \over 4X^2} - P^2 - Q\cdot {E^2 \over X} }}
 \end{equation}
 
+- Jednadžbu napona u tom obliku znamo kao **P-V krivulju** ili **nosnu krivulju**.
+Ovako definirana krivulja nije definirana na cijelom skupu racionalnih brojeva i nije bijekcija.
+Uz trigonometrijski identitet $tg\varphi = Q/P$, možemo definirati tu funkciju u obliku P(V):
+
+\begin{equation}
+    P = {V^2 \over X}\cdot \left({-tg\varphi + \sqrt{tg^2\varphi -(1 - {E^2 \over V^2})} \over 1+tg^2\varphi}\right)
+\end{equation}
+
+- Ovu funkciju vizualno predstavljamo P-V krivuljom, čiji je primjer dan na slici ispod za različite iznose cos$\varphi$:
+
+<figure>
+    <img src="{{ site.baseurl }}/assets/gitbook/images/pv-curve-multiple-cos.svg" width="400" alt="PV krivulja za sustav s dvije sabirnice za razlicite iznose cosphi">
+</figure>
+
+- Maksimum ove funkcije dostiže se za (ceteris paribus) cos$\varphi$ = 1, gdje je **$P=P_{max}$** i to je maksimalna 
+snaga koju je moguće prenijeti nekim sustavom.
+    * Tada se radi o čisto djelatnom trošilu koje ne utječe na jalovu snagu sustava.
+    * Za niže cos$\varphi$, recimo 0.9 induktivno, dolazi do smanjenja djelatne snage koja se može prenijeti sustavom i snižavanje kritičnog napona sustava. 
+
+- Za radnu snagu veću od $P_{max}$, jednadžbe tokova snaga **neće imati rješenja** tako da su tokovi snaga za
+$P = P_{max}$ poznati i kao **točka kolapsa**. 
+
+- Za radne snage manje od $P_{max}$, postoje dva rješenja po naponu, ali samo je "gornje" rješenje fizički moguće.
+
+- PV krivulje na slici dobivene su uz pretpostavku da slack sabirnica može dati bilokoji iznos P i Q, što ograničenje
+stavlja na maksimalnu prenosivu radnu snagu u sustavu.
+- Ukoliko postoji ograničenje na maksimalnu jalovinu koju može dati generator 1, točka kolapsa može biti definirana i 
+jalovinom koju generator maksimalno može dati.
+
+<figure>
+    <img src="{{ site.baseurl }}/assets/gitbook/images/pv-curve-multiple-cos.svg" alt="PV krivulja za sustav s dvije sabirnice, limit Q">
+</figure>
 
 
 
