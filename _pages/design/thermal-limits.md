@@ -79,6 +79,7 @@ Rješavanjem po $V^2$ dobivamo formulu ispod [[1]](https://link.springer.com/boo
 
 \begin{equation}
     \textcolor{blue}{V^2 = {E^2 \over 2}-Q\cdot X \pm \sqrt{ {E^4 \over 4X^2} - P^2 - Q\cdot {E^2 \over X} }}
+    \tag{1}\label{PV-napon}
 \end{equation}
 
 #### P-V krivulje
@@ -134,7 +135,7 @@ Svaka Q-V krivulja prikazuje koliko je u čvor potrebno injektirati Mvar kako bi
 propisanih granica pri **konstantnoj injekciji radne snage**. 
 
 <figure>
-    <img src="{{ site.baseurl }}/assets/gitbook/images/qv-curve-multiple-ocs.svg" alt="QV krivulja za sustav s dvije sabirnice, dQ/dV">
+    <img src="{{ site.baseurl }}/assets/gitbook/images/qv-curve-multiple-cos.svg" alt="QV krivulja za sustav s dvije sabirnice, dQ/dV">
 </figure>
 
 
@@ -150,10 +151,16 @@ propisanih granica pri **konstantnoj injekciji radne snage**.
 
 
 
+
 Lista referenci:
 
 \[1\]: Federico Milano, [Power System Modelling and Scripting](https://link.springer.com/book/10.1007/978-3-642-13669-6) 
 Springer, 2010, doi: 10.1007/978-3-642-13669-6
+
 \[2\]: Electric Power Research Institute, [Power System Dynamics Tutorial](https://www.epri.com/research/products/000000000001016042), Final Report, 2009.
+
 \[3\]: Institut za elektroprivredu, Uloga NE Krško u regulaciji napona slovenskog i hrvatskog EES-a, Zagreb, 2006.
-\[4\]:
+
+\[4\]: Stipe Ćurlin, HEP OPS d.o.o. [Naponska stabilnost elektroenergetskog sustava](https://www.scribd.com/doc/211829732/Stabilnost-Ees-A)
+
+\[5\]: N. Valentin et al. [Voltage Stability Analysis Based on PV and QV curves in transmission lines using SVC with the Power Factory Program](https://iopscience.iop.org/article/10.1088/1742-6596/1993/1/012015/pdf), Journal of Physics: Conference Series 2021
