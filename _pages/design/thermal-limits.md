@@ -25,10 +25,10 @@ jalovinu koja je potrebna za prijenos radne snage, vod samostalno proizvodi i tr
 
 $$
 \begin{equation}
-\begin{align}
+\begin{aligned}
     Q_{produces} = {V^2 \over X_C} \\
-    Q_{uses} = I^2 \cdot X_L
-\end{align}
+    Q_{uses} = I^2 X_L
+\end{aligned}
 \end{equation}
 $$
 
@@ -54,33 +54,33 @@ Napon na strani potrošača iznosi $V\angle\delta$.
 
 $$
 \begin{equation}
-\begin{align}
-    \sin\delta = {I\cdot X\cdot \cos\varphi \over E} \\
-    I\cdot \cos\varphi = {E \over X}\cdot \sin\delta \\
-    P = V \cdot I \cdot \cos\varphi = V\cdot {E \over X}\cdot \sin\delta
-\end{align}
+\begin{aligned}
+    \sin\delta = {I X \cos\varphi \over E} \\
+    I \cos\varphi = {E \over X} \sin\delta \\
+    P = V I \cos\varphi = V {E \over X} \sin\delta
+\end{aligned}
 \end{equation}
 $$
 
 $$
 \begin{equation}
-\begin{align}
-    P = - {E\cdot V \over X}\cdot sin\delta \\
-    Q = {E\cdot V\over X}\cdot cos\delta - {V^2 \over X}
-\end{align}
+\begin{aligned}
+    P = - {E V \over X} \sin\delta \\
+    Q = {E V\over X} \cos\delta - {V^2 \over X}
+\end{aligned}
 \end{equation}
 $$
 
 Eliminacijom $\delta$ dobivamo:
 
 \begin{equation}
-    \textcolor{red}{(Q+ {V^2 \over X})^2 + P^2 = ({E\cdot V \over X})^2}
+    \textcolor{red}{(Q+ {V^2 \over X})^2 + P^2 = ({E V \over X})^2}
 \end{equation}
 
 Rješavanjem po $V^2$ dobivamo formulu ispod [[1]](https://link.springer.com/book/10.1007/978-3-642-13669-6)
 
 \begin{equation}
-    \textcolor{blue}{V^2 = {E^2 \over 2}-Q\cdot X \pm \sqrt{ {E^4 \over 4X^2} - P^2 - Q\cdot {E^2 \over X} }}
+    \textcolor{blue}{V^2 = {E^2 \over 2}-Q X \pm \sqrt{ {E^4 \over 4X^2} - P^2 - Q {E^2 \over X} }}
     \tag{1}\label{PV-napon}
 \end{equation}
 
@@ -93,15 +93,15 @@ Problem opisan jednadžbom \ref{PV-napon} ima realno pozitivno rješenje ako je:
 \end{equation}
 
 Ova nejednakost pokazuje kombinaciju radne i jalove snage koju vod može prenijeti potrošaču. Uvrštenjem kratkospojne
-snage na početku voda, koja je jednaka $S_{SC} = E^2 \over X$ imamo sljedeći izraz:
+snage na početku voda, koja je jednaka $S_{sc} = E^2 \over X$ imamo sljedeći izraz:
 
 \begin{equation}
-    P^2 + QS_{SC} \leq \left(S_{SC} \over 2 \right)^2 
+    P^2 + QS_{sc} \leq \left(S_{sc} \over 2 \right)^2 
 \end{equation}
 
 >Što nam to znači fizikalno?
-> - Maksimalna djelatna snaga prijenosa postiže se za $Q = 0$ i iznosi $P = S_{SC}/2$
-> - Maksimalna jalova snaga prijenosa postiže se $P = 0$ i iznosi $Q = S_{SC}/4$
+> - Maksimalna djelatna snaga prijenosa postiže se za $Q = 0$ i iznosi $P = S_{sc}/2$
+> - Maksimalna jalova snaga prijenosa postiže se $P = 0$ i iznosi $Q = S_{sc}/4$
 > - Injekcija jalove snage na kraju voda, odnosno $Q \leq 0$ povećava granicu prijenosa djelatne snage
 > - Ograničenje prijenosa proporcionalno je admitanciji voda $X$ i kvadratu napona napajanja $E$
 {: .block-tip }
@@ -115,7 +115,7 @@ Ovako definirana krivulja nije definirana na cijelom skupu racionalnih brojeva i
 Uz trigonometrijski identitet $tg\varphi = Q/P$, možemo definirati tu funkciju u obliku P(V):
 
 \begin{equation}
-    P = {V^2 \over X}\cdot \left({-tg\varphi + \sqrt{tg^2\varphi -(1 - {E^2 \over V^2})} \over 1+tg^2\varphi}\right)
+    P = {V^2 \over X} \left({-tg\varphi + \sqrt{tg^2\varphi -(1 - {E^2 \over V^2})} \over 1+tg^2\varphi}\right)
 \end{equation}
 
 - Ovu funkciju vizualno predstavljamo P-V krivuljom, čiji je primjer dan na slici ispod za različite iznose cos$\varphi$:
