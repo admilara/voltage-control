@@ -34,8 +34,8 @@ $$
 \begin{aligned}
     \dot x = f(x, y; \mu) \\
     0 = g(x, y; \mu)  
-    \tag{1}\label{DAE}
 \end{aligned}
+\tag{1}\label{DAE}
 \end{equation}
 $$
 
@@ -81,8 +81,8 @@ $$
     \dot \delta = \omega \\
     M \dot \omega + D\omega +f_g(\delta, \Phi, V, \mu) = 0 \\
     f_l(\delta, \Phi, V, \mu) = 0 
-    \tag{2}\label{classic_model}
 \end{aligned}
+\tag{2}\label{classic_model}
 \end{equation}
 $$
 
@@ -93,8 +93,8 @@ $$
 \begin{aligned}
     0 = f(x, y; \mu) \\
     0 = g(x, y; \mu)
-    \tag{3}\label{equi}
 \end{aligned}
+\tag{3}\label{equi}
 \end{equation}
 $$
 
@@ -139,8 +139,8 @@ $$
     \ddot \Phi &= -V \sin(\Phi - \phi) - V \sin \phi + \Delta P \\
     0 &= V (\sin \phi + \sin(\phi - \Phi)) - P_3 \\
     0 &= -V (\cos\phi + \cos(\phi - \Phi)) + (2-B)V^2 - Q_3
-    \tag{4} \label{eq:system}
 \end{aligned}
+\tag{4} \label{eq:system}
 \end{equation}
 $$
 
