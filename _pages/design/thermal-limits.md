@@ -52,24 +52,27 @@ Napon na strani potrošača iznosi $V\angle\delta$.
 
 - Jednadžbama ispod se opisuje radna i jalova snaga na strani potrošača:
 
-$$
 \begin{equation}
-\begin{aligned}
-    \sin\delta = {I X \cos\varphi \over E} \\
-    I \cos\varphi = {E \over X} \sin\delta \\
-    P = V I \cos\varphi = V {E \over X} \sin\delta
-\end{aligned}
+    \sin\delta = {I X \cos\varphi \over E}
 \end{equation}
-$$
 
-$$
 \begin{equation}
-\begin{aligned}
-    P = - {E V \over X} \sin\delta \\
-    Q = {E V\over X} \cos\delta - {V^2 \over X}
-\end{aligned}
+    I \cos\varphi = {E \over X} \sin\delta
 \end{equation}
-$$
+
+\begin{equation}
+    P = V I \cos\varphi = V {E \over X} \sin\delta
+\end{equation}
+
+
+\begin{equation}
+    P = - {E V \over X} \sin\delta
+\end{equation}
+
+\begin{equation}
+    Q = {E V\over X} \cos\delta - {V^2 \over X}
+\end{equation}
+
 
 Eliminacijom $\delta$ dobivamo:
 
@@ -100,11 +103,26 @@ snage na početku voda, koja je jednaka $S_{sc} = E^2 \over X$ imamo sljedeći i
 \end{equation}
 
 >Što nam to znači fizikalno?
-> - Maksimalna djelatna snaga prijenosa postiže se za $Q = 0$ i iznosi $P = S_{sc}/2$
-> - Maksimalna jalova snaga prijenosa postiže se $P = 0$ i iznosi $Q = S_{sc}/4$
+> - **Maksimalna djelatna snaga prijenosa** postiže se za $Q = 0$ i iznosi $P = S_{sc}/2$
+> - **Maksimalna jalova snaga prijenosa** postiže se $P = 0$ i iznosi $Q = S_{sc}/4$
 > - Injekcija jalove snage na kraju voda, odnosno $Q \leq 0$ povećava granicu prijenosa djelatne snage
 > - Ograničenje prijenosa proporcionalno je admitanciji voda $X$ i kvadratu napona napajanja $E$
 {: .block-tip }
+
+Ukoliko pretpostavimo da teret koji se napaja ima admitancijsku karakteristiku, tj. da se radi o čistom omskom otporu 
+tada vrijedi (pogledati i link [Tereti])(https://admilara.github.io/voltage-control/pages/design/load-types/):
+
+\begin{equation}
+    Z = const. \rightarrow G=const.
+\end{equation}
+
+\begin{equation}
+    S = P + jQ = P \left(1+\tan\varphi \right) = VI\left(1+\tan\varphi \right)\\ 
+    = {V^2 \over Z} \left(1+\tan\varphi \right) = V^2 G \left(1+\tan\varphi \right)
+\end{equation}
+
+- Trošilo proizvodi jalovu snagu za $\tan\varphi \lt 0 $
+- Trošilo troši jalovu snagu za $\tan\varphi \gt 0$
 
 <hr>
 
