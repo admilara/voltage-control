@@ -139,7 +139,7 @@ Uz trigonometrijski identitet $tg\varphi = Q/P$, možemo definirati tu funkciju 
 - Ovu funkciju vizualno predstavljamo P-V krivuljom, čiji je primjer dan na slici ispod za različite iznose cos$\varphi$:
 
 <figure>
-    <img src="{{ site.baseurl }}/assets/gitbook/images/pv-curve-multiple-cos.svg" alt="PV krivulja za sustav s dvije sabirnice za razlicite iznose cosphi">
+    <img src="{{ site.baseurl }}/assets/gitbook/images/pv-curve-multiple-cos-v2.svg" alt="PV krivulja za sustav s dvije sabirnice za razlicite iznose cosphi">
 </figure>
 
 - Maksimum ove funkcije dostiže se za (ceteris paribus) cos$\varphi$ = 1, gdje je **$P=P_{max}$** i to je maksimalna 
@@ -180,14 +180,18 @@ Svaka Q-V krivulja prikazuje koliko je u čvor potrebno injektirati Mvar kako bi
 propisanih granica pri **konstantnoj injekciji radne snage**. 
 
 <figure>
-    <img src="{{ site.baseurl }}/assets/gitbook/images/qv-curve-multiple-cos.svg" alt="QV krivulja za sustav s dvije sabirnice, dQ/dV">
+    <img src="{{ site.baseurl }}/assets/gitbook/images/qv-curve-multiple-cos-v2.svg" alt="QV krivulja za sustav s dvije sabirnice, dQ/dV">
 </figure>
 
 
 <hr>
 
-#### Dodatna razmatranja 
+Čisto za vizualizaciju, na slici ispod se nalazi tzv. 'onion' površina koja pokazuje u 3D prostoru odnose između
+radne snage, jalove snage i napona. 
 
+<figure>
+    <img src="{{ site.baseurl }}/assets/gitbook/images/onion-surface-pv.svg" alt="Onion surface">
+</figure>
 
 
 
@@ -209,3 +213,6 @@ Springer, 2010, doi: 10.1007/978-3-642-13669-6
 \[4\]: Stipe Ćurlin, HEP OPS d.o.o. [Naponska stabilnost elektroenergetskog sustava](https://www.scribd.com/doc/211829732/Stabilnost-Ees-A)
 
 \[5\]: N. Valentin et al. [Voltage Stability Analysis Based on PV and QV curves in transmission lines using SVC with the Power Factory Program](https://iopscience.iop.org/article/10.1088/1742-6596/1993/1/012015/pdf), Journal of Physics: Conference Series 2021
+
+\[6\]: Larsson, M. (2001). [Coordinated Voltage Control in Electric Power Systems](https://portal.research.lu.se/en/publications/coordinated-voltage-control-in-electric-power-systems). 
+Doctoral Thesis (compilation), Division for Industrial Electrical Engineering and Automation. Mats Larsson, IEA, LTH, Box 118, S-221 00 Lund, Sweden,.
