@@ -9,9 +9,6 @@ mermaid: true
 
 ### Prijenos radne i jalove snage
 
-
-
-
 Gubitci jalove snage u prijenosnom sustavu direktno su vezani za naponske razine
 u sustavu. Što se veća radna snaga prenosi, to su veći i jalovi gubitci u sustavu, 
 kao i pad napona. 
@@ -40,7 +37,7 @@ sredine dalekovoda
 sredine dalekovoda
 - Ako je vod opterećen na prirodnu snagu, profil napona je konstantan duž voda
 
-### Prijenos radne i jalove snagež
+### Osnovne jednadžbe prijenosa
 
 <figure>
     <img src="{{ site.baseurl }}/assets/gitbook/images/two-bus-sys.svg" width="400" alt="Jednostavni sustav s dvije sabirnice">
@@ -84,6 +81,8 @@ Rješavanjem po $V^2$ dobivamo formulu ispod [[1]](https://link.springer.com/boo
     \textcolor{blue}{V^2 = {E^2 \over 2}-Q\cdot X \pm \sqrt{ {E^4 \over 4X^2} - P^2 - Q\cdot {E^2 \over X} }}
 \end{equation}
 
+#### P-V krivulje
+
 - Jednadžbu napona u tom obliku znamo kao **P-V krivulju** ili **nosnu krivulju**.
 Ovako definirana krivulja nije definirana na cijelom skupu racionalnih brojeva i nije bijekcija.
 Uz trigonometrijski identitet $tg\varphi = Q/P$, možemo definirati tu funkciju u obliku P(V):
@@ -99,12 +98,22 @@ Uz trigonometrijski identitet $tg\varphi = Q/P$, možemo definirati tu funkciju 
 </figure>
 
 - Maksimum ove funkcije dostiže se za (ceteris paribus) cos$\varphi$ = 1, gdje je **$P=P_{max}$** i to je maksimalna 
-snaga koju je moguće prenijeti nekim sustavom.
+snaga koju je moguće prenijeti nekim sustavom. 
     * Tada se radi o čisto djelatnom trošilu koje ne utječe na jalovu snagu sustava.
     * Za niže cos$\varphi$, recimo 0.9 induktivno, dolazi do smanjenja djelatne snage koja se može prenijeti sustavom i snižavanje kritičnog napona sustava. 
+    * Kad razmatramo slučaj gdje je cos$\varphi$ = 1 tj. imamo trošilo koje je isključivo djelatno, ono što održava napon je sam sustav - generiranjem induktivne i 
+    kapacitivne jalove snage (npr. kabel, dalekovod, generator, trafo) - do sloma napona dolazi kad se iscrpe rezerve jalove snage koje 
+    su potrebne za održavanje napona. 
+    * Vidljivo je da porastom prijenosa radne snage (injektiranjem snage u čvorište), napon tog čvorišta opada.
+    * 
 
 - Za radnu snagu veću od $P_{max}$, jednadžbe tokova snaga **neće imati rješenja** tako da su tokovi snaga za
 $P = P_{max}$ poznati i kao **točka kolapsa**. 
+    * Za velika opterećenja, velike su i struje. Velike struje za sobom povlače i velike gubitke. Jalovi gubitci
+    su također proporcionalni kvadratu struje, a oni stvaraju padove napona.
+    * Još jedan problem kod P-V krivulja je sljedeći - analiza naponske stabilnosti bazirana na sporom porastu
+    opterećenja bazira se na tokovima snaga, što znači rješavanje nelinearnih jednadžbi Newton-Raphson metodom.
+    * Osnovni problem te metode je Jakobijan koji u točki koljena P-V krivulje postaje singularan, tj. divergira
 
 - Za radne snage manje od $P_{max}$, postoje dva rješenja po naponu, ali samo je "gornje" rješenje fizički moguće.
 
@@ -118,28 +127,18 @@ jalovinom koju generator maksimalno može dati.
 </figure>
 
 
+#### Q-V krivulje
+
+Osim P-V krivulja, u proučavanju naponske stabilnosti koriste se i Q-V krivulje, koje se izrađuju za sabirnice koje se 
+smatra kritičnima tj. najpodložnijima naponskoj nestabilnosti pa i slomu. 
+Svaka Q-V krivulja prikazuje koliko je u čvor potrebno injektirati Mvar kako bi se napon u tom čvoru održao unutar
+propisanih granica pri **konstantnoj injekciji radne snage**. 
 
 
-Najbolja ilustracija ovisnosti napona i snage koja se prenosi dalekovodom je u
-obliku **P-V krivulja**. 
-- PV krivulja prikazuje kako se s povećanjem snage koja se prenosi nekim dalekovodom, 
-smanjuje iznos napona u čvorištu koje prima tu istu snagu, što se događa zbog povećanja
-gubitaka jalove snage. 
-- Ako se radna snaga kontinuirano povećava, napon će u jednom trenutku prijeći 
-maksimalnu snagu voda, nakon čega su iscrpljene rezerve jalove snage koja je potrebna
-za održavanje napona te dolazi do naglog propada napona.
-
-- Za jednostavni sustav sa dvije sabirnice (kao na slici ispod) navodimo 
-jednadžbu koja pokazuje ovisnost napona o radnoj snazi i kutu opterećenja
-
-<div>
-    <img src="{{ site.baseurl }}/assets/gitbook/images/two-bus-sys.svg" width="400" alt="Jednostavni sustav s dvije sabirnice">
-</div>
 
 
-\begin{equation}
-    V_2 = {\sqrt{ -a \pm \sqrt{1+1}}}
-\end{equation}
+
+
 
 
 
