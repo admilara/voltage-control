@@ -37,10 +37,12 @@ sredine dalekovoda
 sredine dalekovoda
 - Ako je vod opterećen na prirodnu snagu, profil napona je konstantan duž voda
 
+<hr>
+
 ### Osnovne jednadžbe prijenosa
 
 <figure>
-    <img src="{{ site.baseurl }}/assets/gitbook/images/two-bus-sys.svg" width="400" alt="Jednostavni sustav s dvije sabirnice">
+    <img src="{{ site.baseurl }}/assets/gitbook/images/two-bus-sys.svg" alt="Jednostavni sustav s dvije sabirnice">
 </figure>
 
 - Razmatramo jednostavni prijenosni krug, od generatora do potrošača, kako je prikazano na slici gore. Generator je 
@@ -81,6 +83,8 @@ Rješavanjem po $V^2$ dobivamo formulu ispod [[1]](https://link.springer.com/boo
     \textcolor{blue}{V^2 = {E^2 \over 2}-Q\cdot X \pm \sqrt{ {E^4 \over 4X^2} - P^2 - Q\cdot {E^2 \over X} }}
     \tag{1}\label{PV-napon}
 \end{equation}
+
+<hr>
 
 #### P-V krivulje
 
@@ -126,6 +130,7 @@ jalovinom koju generator maksimalno može dati.
     <img src="{{ site.baseurl }}/assets/gitbook/images/pv-curve-q-limit.svg" alt="PV krivulja za sustav s dvije sabirnice, limit Q">
 </figure>
 
+<hr>
 
 #### Q-V krivulje
 
