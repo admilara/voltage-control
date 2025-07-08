@@ -29,11 +29,13 @@ a drugi složena priroda tog sustava. Neke od razlika koje otkrivaju složenost 
 
 Najčešći pristup modeliranju elektroenergetskog sustava je korištenje diferencijalno-algebarskih jednadžbi u obliku:
 
+```math
 \begin{eqnarray}
     \dot x = f(x, y; \mu)
     0 = g(x, y; \mu)
     \tag{1}\label{DAE}
 \end{eqnarray}
+```
 
 gdje su:
 - f: $\mathbb{R}^n$ x $\mathbb{R}^m$ x $\mathbb{R}^p$ $\rightarrow$ $\mathbb{R}^n$
@@ -71,20 +73,23 @@ te razmotriti statičko i dinamičko ponašanje takvih sustava kao funkcije para
 Prema tom sustavu jednadžbi, klasični model koji se sastoji od $n_g$ generatora, $n_{PV}$ čvorišta te 
 $n_{PQ}$ čvorišta se može opisati sljedećim setom jednadžbi:
 
+``` math
 \begin{eqnarray}
     \dot \delta = \omega
     M \dot \omega + D\omega +f_g(\delta, \Phi, V, \mu) = 0
     f_l(\delta, \Phi, V, \mu) = 0
     \tag{2}\label{classic_model}
 \end{eqnarray}
+```
 
 Ravnotežna stanja sustava zadovoljavaju algebarske jednadžbe:
-
+``` math
 \begin{eqnarray}
     0 = f(x, y; \mu)
     0 = g(x, y; \mu)
     \tag{3}\label{equi}
 \end{eqnarray}
+```
 
 > Ove jednadžbe (\ref{equi}) nazivamo **jednadžbama tokova snaga**. 
 {: .block-tip }
@@ -121,13 +126,13 @@ Razmotrimo jednostavnu mrežu s tri sabirnice sa slike dolje.
     
 Jednadžbe gibanja su tad:
 
+``` math
 \begin{eqnarray}
     \ddot \Phi = -V sin(\Phi - \phi) - V sin \phi + \Delta P
-    
     0 = V (sin \phi + sin(\phi - \Phi)) - P_3
-    
     0 = -V (cos\phi + cos(\phi - \Phi) + (2-B)V^2 - Q_3)
 \end{eqnarray}
+```
 
 - Bilokoje gibanje opisano prvom jednadžbom iz seta ograničeno je drugim dvjema (algebarskim) jednadžbama.
 
