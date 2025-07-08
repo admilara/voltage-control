@@ -123,7 +123,9 @@ Jednadžbe gibanja su tad:
 
 \begin{eqnarray}
     \ddot \Phi = -V sin(\Phi - \phi) - V sin \phi + \Delta P
+    
     0 = V (sin \phi + sin(\phi - \Phi)) - P_3
+    
     0 = -V (cos\phi + cos(\phi - \Phi) + (2-B)V^2 - Q_3)
 \end{eqnarray}
 
