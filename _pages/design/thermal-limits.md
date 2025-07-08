@@ -23,13 +23,14 @@ dalekovoda po iznosu konstantni i jedan s drugim u fazi.
 Taj dalekovod tada ne treba potporu sustava u vidu dodatne jalove snage jer svu 
 jalovinu koja je potrebna za prijenos radne snage, vod samostalno proizvodi i troši. 
 
+$$
 \begin{equation}
-    Q_{produces} = {V^2 \over X_C}
-\end{equation}
-
-\begin{equation}
+\begin{align}
+    Q_{produces} = {V^2 \over X_C} \\
     Q_{uses} = I^2 \cdot X_L
+\end{align}
 \end{equation}
+$$
 
 - Ako je vod opterećen ispod prirodne snage voda, najviši napon je negdje oko
 sredine dalekovoda
@@ -51,25 +52,24 @@ Napon na strani potrošača iznosi $V\angle\delta$.
 
 - Jednadžbama ispod se opisuje radna i jalova snaga na strani potrošača:
 
+$$
 \begin{equation}
-    sin\delta = {I\cdot X\cdot cos\varphi \over E}
+\begin{align}
+    \sin\delta = {I\cdot X\cdot \cos\varphi \over E} \\
+    I\cdot \cos\varphi = {E \over X}\cdot \sin\delta \\
+    P = V \cdot I \cdot \cos\varphi = V\cdot {E \over X}\cdot \sin\delta
+\end{align}
 \end{equation}
+$$
 
+$$
 \begin{equation}
-    I\cdot cos\varphi = {E \over X}\cdot sin\delta
-\end{equation}
-
-\begin{equation}
-    P = V \cdot I \cdot cos\varphi = V\cdot {E \over X}\cdot sin\delta
-\end{equation}
-
-\begin{equation}
-    P = - {E\cdot V \over X}\cdot sin\delta
-\end{equation}
-
-\begin{equation}
+\begin{align}
+    P = - {E\cdot V \over X}\cdot sin\delta \\
     Q = {E\cdot V\over X}\cdot cos\delta - {V^2 \over X}
+\end{align}
 \end{equation}
+$$
 
 Eliminacijom $\delta$ dobivamo:
 
@@ -83,6 +83,28 @@ Rješavanjem po $V^2$ dobivamo formulu ispod [[1]](https://link.springer.com/boo
     \textcolor{blue}{V^2 = {E^2 \over 2}-Q\cdot X \pm \sqrt{ {E^4 \over 4X^2} - P^2 - Q\cdot {E^2 \over X} }}
     \tag{1}\label{PV-napon}
 \end{equation}
+
+<hr>
+
+Problem opisan jednadžbom \ref{PV-napon} ima realno pozitivno rješenje ako je:
+
+\begin{equation}
+    P^2 + Q{E^2 \over X} \leq {E^4 \over {4X^2}}
+\end{equation}
+
+Ova nejednakost pokazuje kombinaciju radne i jalove snage koju vod može prenijeti potrošaču. Uvrštenjem kratkospojne
+snage na početku voda, koja je jednaka $S_{SC} = E^2 \over X$ imamo sljedeći izraz:
+
+\begin{equation}
+    P^2 + QS_{SC} \leq \left(S_{SC} \over 2 \right)^2 
+\end{equation}
+
+>Što nam to znači fizikalno?
+> - Maksimalna djelatna snaga prijenosa postiže se za $Q = 0$ i iznosi $P = S_{SC}/2$
+> - Maksimalna jalova snaga prijenosa postiže se $P = 0$ i iznosi $Q = S_{SC}/4$
+> - Injekcija jalove snage na kraju voda, odnosno $Q \leq 0$ povećava granicu prijenosa djelatne snage
+> - Ograničenje prijenosa proporcionalno je admitanciji voda $X$ i kvadratu napona napajanja $E$
+{: .block-tip }
 
 <hr>
 
