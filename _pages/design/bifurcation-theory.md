@@ -129,10 +129,14 @@ Jednadžbe gibanja su tad:
 
 - Bilokoje gibanje opisano prvom jednadžbom iz seta ograničeno je drugim dvjema (algebarskim) jednadžbama.
 
-- 
 
 
 
 
-
-
+Literatura:
+\[1\]: G. Revel, D.M. Alonso, J.L. Moiola, [Biifurcation theory applied to the analysis of power systems](http://ref.scielo.org/csx5fd),
+Revista de la Unión Matemática Argentina, 2008.
+\[2\]: H.G. Kwatny, R.F. Fischl, [Local Bifurcation in Power Systems: Theory, Computation and Application](https://ieeexplore.ieee.org/document/481630/), 
+Proceedings of the IEEE 83(11):1456 - 1483, doi: 10.1109/5.481630, 1995.
+\[3\]: Federico Milano, [Power System Modelling and Scripting](https://link.springer.com/book/10.1007/978-3-642-13669-6) 
+Springer, 2010, doi: 10.1007/978-3-642-13669-6

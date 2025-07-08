@@ -105,7 +105,6 @@ snaga koju je moguće prenijeti nekim sustavom.
     kapacitivne jalove snage (npr. kabel, dalekovod, generator, trafo) - do sloma napona dolazi kad se iscrpe rezerve jalove snage koje 
     su potrebne za održavanje napona. 
     * Vidljivo je da porastom prijenosa radne snage (injektiranjem snage u čvorište), napon tog čvorišta opada.
-    * 
 
 - Za radnu snagu veću od $P_{max}$, jednadžbe tokova snaga **neće imati rješenja** tako da su tokovi snaga za
 $P = P_{max}$ poznati i kao **točka kolapsa**. 
@@ -130,10 +129,18 @@ jalovinom koju generator maksimalno može dati.
 #### Q-V krivulje
 
 Osim P-V krivulja, u proučavanju naponske stabilnosti koriste se i Q-V krivulje, koje se izrađuju za sabirnice koje se 
-smatra kritičnima tj. najpodložnijima naponskoj nestabilnosti pa i slomu. 
+smatra kritičnima tj. najpodložnijima naponskoj nestabilnosti pa i slomu [. 
 Svaka Q-V krivulja prikazuje koliko je u čvor potrebno injektirati Mvar kako bi se napon u tom čvoru održao unutar
 propisanih granica pri **konstantnoj injekciji radne snage**. 
 
+<figure>
+    <img src="{{ site.baseurl }}/assets/gitbook/images/qv-curve-multiple-ocs.svg" alt="QV krivulja za sustav s dvije sabirnice, dQ/dV">
+</figure>
+
+
+<hr>
+
+#### Dodatna razmatranja 
 
 
 
@@ -147,3 +154,6 @@ Lista referenci:
 
 \[1\]: Federico Milano, [Power System Modelling and Scripting](https://link.springer.com/book/10.1007/978-3-642-13669-6) 
 Springer, 2010, doi: 10.1007/978-3-642-13669-6
+\[2\]: Electric Power Research Institute, [Power System Dynamics Tutorial](https://www.epri.com/research/products/000000000001016042), Final Report, 2009.
+\[3\]: Institut za elektroprivredu, Uloga NE Krško u regulaciji napona slovenskog i hrvatskog EES-a, Zagreb, 2006.
+\[4\]:
