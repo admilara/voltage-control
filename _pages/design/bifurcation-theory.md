@@ -31,8 +31,14 @@ Najčešći pristup modeliranju elektroenergetskog sustava je korištenje difere
 
 ```math
 \begin{eqnarray}
+    $$
     \dot x = f(x, y; \mu)
+    $$
+    
+    $$
     0 = g(x, y; \mu)
+    $$
+    
     \tag{1}\label{DAE}
 \end{eqnarray}
 ```
@@ -75,9 +81,17 @@ $n_{PQ}$ čvorišta se može opisati sljedećim setom jednadžbi:
 
 ``` math
 \begin{eqnarray}
+    $$
     \dot \delta = \omega
+    $$
+    
+    $$
     M \dot \omega + D\omega +f_g(\delta, \Phi, V, \mu) = 0
+    $$
+    
+    $$
     f_l(\delta, \Phi, V, \mu) = 0
+    $$
     \tag{2}\label{classic_model}
 \end{eqnarray}
 ```
@@ -85,8 +99,13 @@ $n_{PQ}$ čvorišta se može opisati sljedećim setom jednadžbi:
 Ravnotežna stanja sustava zadovoljavaju algebarske jednadžbe:
 ``` math
 \begin{eqnarray}
+    $$
     0 = f(x, y; \mu)
+    $$
+    
+    $$
     0 = g(x, y; \mu)
+    $$
     \tag{3}\label{equi}
 \end{eqnarray}
 ```
@@ -128,9 +147,17 @@ Jednadžbe gibanja su tad:
 
 ``` math
 \begin{eqnarray}
+    $$
     \ddot \Phi = -V sin(\Phi - \phi) - V sin \phi + \Delta P
+    $$
+    
+    $$
     0 = V (sin \phi + sin(\phi - \Phi)) - P_3
+    $$
+    
+    $$
     0 = -V (cos\phi + cos(\phi - \Phi) + (2-B)V^2 - Q_3)
+    $$
 \end{eqnarray}
 ```
 
