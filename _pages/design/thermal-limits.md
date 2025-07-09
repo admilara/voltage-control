@@ -1,5 +1,5 @@
 ---
-title: 1.1 Termalne granice prijenosa
+title: 1.1 Granice prijenosa
 author: admilara
 date: 2025-04-28
 category: 1.1. Granice prijenosa
@@ -193,11 +193,29 @@ radne snage, jalove snage i napona.
     <img src="{{ site.baseurl }}/assets/gitbook/images/onion-surface-pv.svg" alt="Onion surface">
 </figure>
 
+Projekcijom na P-V ili Q-V ravnine, dobiju se gore opisane P-V i Q-V krivulje.
 
+- Prema uvjetu maksimalne prenosive radne snage na vodu, čisto aktivno trošilo teoretski može primiti polovicu 
+kratkospojne snage na svojim sabirnicama, uz uvjet da ne prima nikakvu jalovu snagu. Naravno, takav iznos snage 
+postiže se za naponske razine koje su daleko od dopuštenih u normalnom prijenosnom sustavu. 
+- Granice za 110 kV napon u hrvatskom prijenosnom sustavu su $\pm$ 10%.
+- Na slici ispod vidljivo je kako to izgleda na P-V krivuljama, gdje je sivo osjenčana regija dopuštenog napona (op.a.
+slika je preuzeta iz \[6\] te su na njoj granice $\pm$ 5%)
+- Prema tome, **praktična granica prijenosa** je još niža od teorijske za čisti radni teret.
 
+<figure>
+    <img src="{{ site.baseurl }}/assets/gitbook/images/pv-practical-limits.svg" alt="Onion surface">
+</figure>
 
-
-
+- Na kraj prijenosnog voda se često dodaju **kondenzatorske baterije** kako bi se povećao krajnji napon na vodu
+i time i povećala praktična granica prijenosne moći.
+- Na taj način se jalova snaga proizvodi lokalno umjesto da se prijenosni kapacitet voda zagušuje prijenosom jalovine.
+- Iz perspektive prijenosnog sustava, povećava se i faktor snage tereta - što je prema P-V krivuljama jednako pomicanju
+na drugu krivulju koja ima povoljniji $\tan\varphi$ (tj. $\cos\varphi$).
+- Prelaskom u kapacitivni režim (negativni $\tan\varphi$) moguće je prenijeti i više od $S_{sc} \over 2$ radne snage pri
+naponima blizu 1 p.u, **ALI**
+    - <font color="red"> vidljiva je osjetljivost rada u takvom prekompenziranom sustavu - za malu promjenu tereta možemo očekivati velike promjene napona </font>
+    - <font color="red"> kritični napon (točka u kojoj dolazi do sloma) je veoma blizu nominalnom </font>
 
 
 
