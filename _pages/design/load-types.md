@@ -1,8 +1,8 @@
 ---
-title: 1. Tipovi tereta
+title: 1.3 Tipovi tereta
 author: admilara
 date: 2025-04-23
-category: Tipovi tereta
+category: 1.3. Tipovi tereta
 layout: post
 mermaid: true
 ---
