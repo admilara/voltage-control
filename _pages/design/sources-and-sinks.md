@@ -12,9 +12,9 @@ mermaid: true
 S obzirom da smo razmatrali jednostavni sustav s dvije sabirnice s jednim izvorom i jednim ponorom, iz prethodnog
 poglavlja vidljiva je jaka ovisnost napona na strani tereta o apsorpciji ili injekciji jalove snage tereta.
 
-<font color="red"><b> Upravljanje naponom je usko vezano uz upravljanje jalovom snagom. <\b><\font>
+<span style="color:blue"><b> Upravljanje naponom je usko vezano uz upravljanje jalovom snagom. <\b><\span>
 
-<font color="red"><b> Injekcija jalove snage u čvoru koji nije direktno naponski reguliran općenito će povećati napon tog čvorišta i mreže oko njega. <\b><\font>
+<span style="color:blue"><b> Injekcija jalove snage u čvoru koji nije direktno naponski reguliran općenito će povećati napon tog čvorišta i mreže oko njega. <\b><\span>
 
 
 Najvažniji izvori i ponori jalove snage u elektroenergetskom sustavu su:
