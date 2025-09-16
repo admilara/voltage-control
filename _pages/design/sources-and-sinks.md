@@ -87,14 +87,18 @@ metoda kompenzacije povećanje početnog napona $E$, serijski kondenzatori te up
 
 
 
-- **Kondenzatori** generiraju jalovu snagu
 
-- **Prigušnice** apsorbiraju jalovu snagu
 
-- **Tereti** - iz perspektive prijenosnog sustava su najčešće induktivni i stoga apsorbiraju jalovu snagu.
 
-- **Sinkroni generatori, sinkroni kompenzatori i statički VAr kompenzatori** upravljivi su na način da mogu
-regulirati napon sabirnice i generirati/apsorbirati jalovu snagu ovisno o potrebama mreže.
 
-- **Serijski kondenzatori** mogu se spojiti u seriju s visoko opterećenim vodovima i time smanjiti jalove gubitke.
+
+
+
+
+
+
+Lista referenci:
+
+\[1\]: Larsson, M. (2001). [Coordinated Voltage Control in Electric Power Systems](https://portal.research.lu.se/en/publications/coordinated-voltage-control-in-electric-power-systems). 
+Doctoral Thesis (compilation), Division for Industrial Electrical Engineering and Automation. Mats Larsson, IEA, LTH, Box 118, S-221 00 Lund, Sweden,.
 
